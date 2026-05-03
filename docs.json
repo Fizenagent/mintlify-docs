@@ -33,9 +33,9 @@
   "navigation": {
     "global": {
       "anchors": [
-        { "anchor": "Telegram", "href": "https://t.me/fizen_io", "icon": "telegram" },
+        { "anchor": "Telegram", "href": "https://url.fizen.io/telegram", "icon": "telegram" },
         { "anchor": "Blog", "href": "https://blog.fizen.io", "icon": "newspaper" },
-        { "anchor": "Support", "href": "mailto:support@fizen.io", "icon": "envelope" }
+        { "anchor": "Support", "href": "mailto:cs@fizen.io", "icon": "envelope" }
       ]
     },
     "tabs": [
@@ -44,7 +44,7 @@
         "groups": [
           {
             "group": "Welcome",
-            "pages": ["welcome", "events"]
+            "pages": ["index", "events"]
           },
           {
             "group": "General Introduction to Fizen",
