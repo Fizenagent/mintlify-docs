@@ -12,259 +12,272 @@
     "light": "/logo/fizen-dark.svg"
   },
   "favicon": "/favicon.png",
-  "topbarLinks": [
-    { "name": "Get Fizen Card", "url": "https://fizen.io/card" }
-  ],
-  "topbarCtaButton": {
-    "name": "Download App",
-    "url": "https://url.fizen.io/downloadgb"
-  },
-  "anchors": [
-    { "name": "Telegram", "icon": "telegram", "url": "https://t.me/fizen_io" },
-    { "name": "Blog", "icon": "newspaper", "url": "https://blog.fizen.io" },
-    { "name": "Support", "icon": "envelope", "url": "mailto:support@fizen.io" }
-  ],
-  "navigation": [
-    {
-      "group": "",
-      "pages": ["welcome", "events"]
-    },
-    {
-      "group": "General Introduction to Fizen",
-      "pages": [
-        {
-          "group": "Fizen's Story",
-          "pages": [
-            "general-introduction-to-fizen/fizens-story/fizens-story",
-            "general-introduction-to-fizen/fizens-story/why",
-            "general-introduction-to-fizen/fizens-story/how",
-            "general-introduction-to-fizen/fizens-story/our-actions",
-            "general-introduction-to-fizen/fizens-story/fizen-ecosystem"
-          ]
-        },
-        {
-          "group": "Products",
-          "pages": [
-            "general-introduction-to-fizen/products/products",
-            "general-introduction-to-fizen/products/fizen-app",
-            "general-introduction-to-fizen/products/fizen-pay"
-          ]
-        },
-        {
-          "group": "Practical Applications",
-          "pages": [
-            "general-introduction-to-fizen/practical-applications/practical-applications",
-            "general-introduction-to-fizen/practical-applications/cashless-travel",
-            "general-introduction-to-fizen/practical-applications/cross-border-payments",
-            "general-introduction-to-fizen/practical-applications/business-scalability"
-          ]
-        },
-        {
-          "group": "Achievements",
-          "pages": [
-            "general-introduction-to-fizen/achievements/achievements",
-            "general-introduction-to-fizen/achievements/users-and-community",
-            "general-introduction-to-fizen/achievements/web3-partners",
-            "general-introduction-to-fizen/achievements/business-clients"
-          ]
-        }
-      ]
-    },
-    {
-      "group": "Cooperation & Business",
-      "pages": [
-        {
-          "group": "Integration",
-          "pages": [
-            "cooperation-and-business/integration/integration",
-            "cooperation-and-business/integration/integrating-tokens-to-fizen-app",
-            "cooperation-and-business/integration/integrate-stablecoin"
-          ]
-        },
-        {
-          "group": "Business Collaboration",
-          "pages": [
-            "cooperation-and-business/business-collaboration/business-collaboration",
-            "cooperation-and-business/business-collaboration/fizen-pay",
-            "cooperation-and-business/business-collaboration/voting-gateway"
-          ]
-        }
-      ]
-    },
-    {
-      "group": "Help Center",
-      "pages": [
-        {
-          "group": "Fizen App",
-          "pages": [
-            "help-center/fizen-app/fizen-app",
-            "help-center/fizen-app/fizen-app-basics",
-            {
-              "group": "Wallet & Account",
-              "pages": [
-                "help-center/fizen-app/wallet-and-account/wallet-and-account",
-                "help-center/fizen-app/wallet-and-account/set-up-wallet",
-                "help-center/fizen-app/wallet-and-account/adding-more-accounts",
-                "help-center/fizen-app/wallet-and-account/reset-wallet-and-export-private-key",
-                "help-center/fizen-app/wallet-and-account/import-token-and-nft-to-your-wallet"
-              ]
-            },
-            {
-              "group": "FiPoint",
-              "pages": [
-                "help-center/fizen-app/fipoint/fipoint",
-                "help-center/fizen-app/fipoint/earn",
-                "help-center/fizen-app/fipoint/redeem",
-                "help-center/fizen-app/fipoint/send-and-swap",
-                "help-center/fizen-app/fipoint/saving"
-              ]
-            },
-            {
-              "group": "Referral",
-              "pages": [
-                "help-center/fizen-app/referral/referral",
-                "help-center/fizen-app/referral/refer-friends",
-                "help-center/fizen-app/referral/p2p-commission"
-              ]
-            },
-            "help-center/fizen-app/fizen-p2p",
-            "help-center/fizen-app/giftcard",
-            "help-center/fizen-app/binance-giftcard",
-            "help-center/fizen-app/swap",
-            {
-              "group": "Manage NFTs",
-              "pages": [
-                "help-center/fizen-app/manage-nfts/manage-nfts",
-                "help-center/fizen-app/manage-nfts/send-and-receive-nfts",
-                "help-center/fizen-app/manage-nfts/hide-and-unhide-nft"
-              ]
-            },
-            "help-center/fizen-app/wallet-connect",
-            {
-              "group": "FAQ",
-              "pages": [
-                "help-center/fizen-app/faq/faq",
-                "help-center/fizen-app/faq/how-to-use-fizen-wallet",
-                "help-center/fizen-app/faq/how-to-use-qr-pay",
-                "help-center/fizen-app/faq/how-to-add-a-token",
-                "help-center/fizen-app/faq/how-to-book-a-hotel",
-                "help-center/fizen-app/faq/purchase-and-activate-an-esim",
-                "help-center/fizen-app/faq/saving-in-fizen",
-                "help-center/fizen-app/faq/p2p-crypto-less-than-greater-than-fiat",
-                "help-center/fizen-app/faq/buy-a-giftcard",
-                "help-center/fizen-app/faq/top-up-phone",
-                "help-center/fizen-app/faq/invite-a-friend",
-                "help-center/fizen-app/faq/book-a-flight"
-              ]
-            }
-          ]
-        },
-        {
-          "group": "Fizen Pay",
-          "pages": [
-            "help-center/fizen-pay/fizen-pay",
-            "help-center/fizen-pay/for-customers",
-            {
-              "group": "For Merchants",
-              "pages": [
-                "help-center/fizen-pay/for-merchants/for-merchants",
-                "help-center/fizen-pay/for-merchants/sign-up",
-                {
-                  "group": "Balances",
-                  "pages": [
-                    "help-center/fizen-pay/for-merchants/balances/balances",
-                    {
-                      "group": "Balances in Smart Contract",
-                      "pages": [
-                        "help-center/fizen-pay/for-merchants/balances/balances-in-smart-contract/balances-in-smart-contract",
-                        "help-center/fizen-pay/for-merchants/balances/balances-in-smart-contract/withdraw-manually",
-                        "help-center/fizen-pay/for-merchants/balances/balances-in-smart-contract/withdrawal-history"
-                      ]
-                    },
-                    "help-center/fizen-pay/for-merchants/balances/balances-in-your-wallet"
-                  ]
-                },
-                {
-                  "group": "Invoices",
-                  "pages": [
-                    "help-center/fizen-pay/for-merchants/invoices/invoices",
-                    "help-center/fizen-pay/for-merchants/invoices/invoice-statuses",
-                    "help-center/fizen-pay/for-merchants/invoices/filter-invoices",
-                    "help-center/fizen-pay/for-merchants/invoices/invoice-details-page",
-                    "help-center/fizen-pay/for-merchants/invoices/create-an-invoice",
-                    "help-center/fizen-pay/for-merchants/invoices/cancel-an-invoice",
-                    "help-center/fizen-pay/for-merchants/invoices/view-payment-details",
-                    "help-center/fizen-pay/for-merchants/invoices/mark-an-invoice-as-resolved-or-refunded"
-                  ]
-                },
-                {
-                  "group": "Point of Sale (POS)",
-                  "pages": [
-                    "help-center/fizen-pay/for-merchants/point-of-sale-pos/point-of-sale-pos",
-                    "help-center/fizen-pay/for-merchants/point-of-sale-pos/create-a-pos",
-                    "help-center/fizen-pay/for-merchants/point-of-sale-pos/help-your-customers-pay-using-a-pos",
-                    "help-center/fizen-pay/for-merchants/point-of-sale-pos/edit-disable-delete-a-pos"
-                  ]
-                },
-                {
-                  "group": "Payments",
-                  "pages": [
-                    "help-center/fizen-pay/for-merchants/payments/payments",
-                    "help-center/fizen-pay/for-merchants/payments/payment-statuses",
-                    "help-center/fizen-pay/for-merchants/payments/filter-payments",
-                    "help-center/fizen-pay/for-merchants/payments/payment-details-page",
-                    "help-center/fizen-pay/for-merchants/payments/mark-a-payment-as-resolved",
-                    "help-center/fizen-pay/for-merchants/payments/mark-a-payment-as-refunded"
-                  ]
-                },
-                {
-                  "group": "Account Settings",
-                  "pages": [
-                    "help-center/fizen-pay/for-merchants/account-settings/account-settings",
-                    "help-center/fizen-pay/for-merchants/account-settings/account-information",
-                    "help-center/fizen-pay/for-merchants/account-settings/two-step-verification",
-                    "help-center/fizen-pay/for-merchants/account-settings/payment-settings",
-                    "help-center/fizen-pay/for-merchants/account-settings/auto-withdrawals",
-                    "help-center/fizen-pay/for-merchants/account-settings/api-keys-va-webhook-subscription",
-                    "help-center/fizen-pay/for-merchants/account-settings/close-account"
-                  ]
-                },
-                "help-center/fizen-pay/for-merchants/crypto-settings"
-              ]
-            }
-          ]
-        },
-        {
-          "group": "Fizen Card",
-          "pages": [
-            "help-center/fizen-card/fizen-card",
-            "help-center/fizen-card/apply-for-a-fizen-card",
-            "help-center/fizen-card/top-up-and-pay",
-            "help-center/fizen-card/add-card-to-google-pay-apple-pay",
-            "help-center/fizen-card/manage-card",
-            "help-center/fizen-card/benefits",
-            "help-center/fizen-card/fees-and-limitations",
-            "help-center/fizen-card/unsupported-countries",
-            "help-center/fizen-card/exceptions-for-unsupported-countries"
-          ]
-        }
-      ]
-    },
-    {
-      "group": "Information",
-      "pages": [
-        "information/brand-guidelines",
-        "information/contact-and-community",
-        "information/terms-of-use",
-        "information/privacy-policy",
-        "information/disclaimer"
-      ]
+  "navbar": {
+    "links": [
+      { "label": "Get Fizen Card", "href": "https://fizen.io/card" }
+    ],
+    "primary": {
+      "label": "Download App",
+      "href": "https://url.fizen.io/downloadgb"
     }
-  ],
-  "footerSocials": {
-    "x": "https://twitter.com/fizenapp",
-    "telegram": "https://t.me/fizen_io",
-    "linkedin": "https://www.linkedin.com/company/fizen-io/",
-    "youtube": "https://www.youtube.com/@fizenio"
+  },
+  "footer": {
+    "socials": {
+      "x": "https://twitter.com/fizenapp",
+      "telegram": "https://t.me/fizen_io",
+      "linkedin": "https://www.linkedin.com/company/fizen-io/",
+      "youtube": "https://www.youtube.com/@fizenio"
+    }
+  },
+  "navigation": {
+    "global": {
+      "anchors": [
+        { "anchor": "Telegram", "href": "https://t.me/fizen_io", "icon": "telegram" },
+        { "anchor": "Blog", "href": "https://blog.fizen.io", "icon": "newspaper" },
+        { "anchor": "Support", "href": "mailto:support@fizen.io", "icon": "envelope" }
+      ]
+    },
+    "tabs": [
+      {
+        "tab": "Docs",
+        "groups": [
+          {
+            "group": "Welcome",
+            "pages": ["welcome", "events"]
+          },
+          {
+            "group": "General Introduction to Fizen",
+            "pages": [
+              {
+                "group": "Fizen's Story",
+                "pages": [
+                  "general-introduction-to-fizen/fizens-story/fizens-story",
+                  "general-introduction-to-fizen/fizens-story/why",
+                  "general-introduction-to-fizen/fizens-story/how",
+                  "general-introduction-to-fizen/fizens-story/our-actions",
+                  "general-introduction-to-fizen/fizens-story/fizen-ecosystem"
+                ]
+              },
+              {
+                "group": "Products",
+                "pages": [
+                  "general-introduction-to-fizen/products/products",
+                  "general-introduction-to-fizen/products/fizen-app",
+                  "general-introduction-to-fizen/products/fizen-pay"
+                ]
+              },
+              {
+                "group": "Practical Applications",
+                "pages": [
+                  "general-introduction-to-fizen/practical-applications/practical-applications",
+                  "general-introduction-to-fizen/practical-applications/cashless-travel",
+                  "general-introduction-to-fizen/practical-applications/cross-border-payments",
+                  "general-introduction-to-fizen/practical-applications/business-scalability"
+                ]
+              },
+              {
+                "group": "Achievements",
+                "pages": [
+                  "general-introduction-to-fizen/achievements/achievements",
+                  "general-introduction-to-fizen/achievements/users-and-community",
+                  "general-introduction-to-fizen/achievements/web3-partners",
+                  "general-introduction-to-fizen/achievements/business-clients"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Cooperation & Business",
+            "pages": [
+              {
+                "group": "Integration",
+                "pages": [
+                  "cooperation-and-business/integration/integration",
+                  "cooperation-and-business/integration/integrating-tokens-to-fizen-app",
+                  "cooperation-and-business/integration/integrate-stablecoin"
+                ]
+              },
+              {
+                "group": "Business Collaboration",
+                "pages": [
+                  "cooperation-and-business/business-collaboration/business-collaboration",
+                  "cooperation-and-business/business-collaboration/fizen-pay",
+                  "cooperation-and-business/business-collaboration/voting-gateway"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Help Center",
+            "pages": [
+              {
+                "group": "Fizen App",
+                "pages": [
+                  "help-center/fizen-app/fizen-app",
+                  "help-center/fizen-app/fizen-app-basics",
+                  {
+                    "group": "Wallet & Account",
+                    "pages": [
+                      "help-center/fizen-app/wallet-and-account/wallet-and-account",
+                      "help-center/fizen-app/wallet-and-account/set-up-wallet",
+                      "help-center/fizen-app/wallet-and-account/adding-more-accounts",
+                      "help-center/fizen-app/wallet-and-account/reset-wallet-and-export-private-key",
+                      "help-center/fizen-app/wallet-and-account/import-token-and-nft-to-your-wallet"
+                    ]
+                  },
+                  {
+                    "group": "FiPoint",
+                    "pages": [
+                      "help-center/fizen-app/fipoint/fipoint",
+                      "help-center/fizen-app/fipoint/earn",
+                      "help-center/fizen-app/fipoint/redeem",
+                      "help-center/fizen-app/fipoint/send-and-swap",
+                      "help-center/fizen-app/fipoint/saving"
+                    ]
+                  },
+                  {
+                    "group": "Referral",
+                    "pages": [
+                      "help-center/fizen-app/referral/referral",
+                      "help-center/fizen-app/referral/refer-friends",
+                      "help-center/fizen-app/referral/p2p-commission"
+                    ]
+                  },
+                  "help-center/fizen-app/fizen-p2p",
+                  "help-center/fizen-app/giftcard",
+                  "help-center/fizen-app/binance-giftcard",
+                  "help-center/fizen-app/swap",
+                  {
+                    "group": "Manage NFTs",
+                    "pages": [
+                      "help-center/fizen-app/manage-nfts/manage-nfts",
+                      "help-center/fizen-app/manage-nfts/send-and-receive-nfts",
+                      "help-center/fizen-app/manage-nfts/hide-and-unhide-nft"
+                    ]
+                  },
+                  "help-center/fizen-app/wallet-connect",
+                  {
+                    "group": "FAQ",
+                    "pages": [
+                      "help-center/fizen-app/faq/faq",
+                      "help-center/fizen-app/faq/how-to-use-fizen-wallet",
+                      "help-center/fizen-app/faq/how-to-use-qr-pay",
+                      "help-center/fizen-app/faq/how-to-add-a-token",
+                      "help-center/fizen-app/faq/how-to-book-a-hotel",
+                      "help-center/fizen-app/faq/purchase-and-activate-an-esim",
+                      "help-center/fizen-app/faq/saving-in-fizen",
+                      "help-center/fizen-app/faq/p2p-crypto-less-than-greater-than-fiat",
+                      "help-center/fizen-app/faq/buy-a-giftcard",
+                      "help-center/fizen-app/faq/top-up-phone",
+                      "help-center/fizen-app/faq/invite-a-friend",
+                      "help-center/fizen-app/faq/book-a-flight"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "Fizen Pay",
+                "pages": [
+                  "help-center/fizen-pay/fizen-pay",
+                  "help-center/fizen-pay/for-customers",
+                  {
+                    "group": "For Merchants",
+                    "pages": [
+                      "help-center/fizen-pay/for-merchants/for-merchants",
+                      "help-center/fizen-pay/for-merchants/sign-up",
+                      {
+                        "group": "Balances",
+                        "pages": [
+                          "help-center/fizen-pay/for-merchants/balances/balances",
+                          {
+                            "group": "Balances in Smart Contract",
+                            "pages": [
+                              "help-center/fizen-pay/for-merchants/balances/balances-in-smart-contract/balances-in-smart-contract",
+                              "help-center/fizen-pay/for-merchants/balances/balances-in-smart-contract/withdraw-manually",
+                              "help-center/fizen-pay/for-merchants/balances/balances-in-smart-contract/withdrawal-history"
+                            ]
+                          },
+                          "help-center/fizen-pay/for-merchants/balances/balances-in-your-wallet"
+                        ]
+                      },
+                      {
+                        "group": "Invoices",
+                        "pages": [
+                          "help-center/fizen-pay/for-merchants/invoices/invoices",
+                          "help-center/fizen-pay/for-merchants/invoices/invoice-statuses",
+                          "help-center/fizen-pay/for-merchants/invoices/filter-invoices",
+                          "help-center/fizen-pay/for-merchants/invoices/invoice-details-page",
+                          "help-center/fizen-pay/for-merchants/invoices/create-an-invoice",
+                          "help-center/fizen-pay/for-merchants/invoices/cancel-an-invoice",
+                          "help-center/fizen-pay/for-merchants/invoices/view-payment-details",
+                          "help-center/fizen-pay/for-merchants/invoices/mark-an-invoice-as-resolved-or-refunded"
+                        ]
+                      },
+                      {
+                        "group": "Point of Sale (POS)",
+                        "pages": [
+                          "help-center/fizen-pay/for-merchants/point-of-sale-pos/point-of-sale-pos",
+                          "help-center/fizen-pay/for-merchants/point-of-sale-pos/create-a-pos",
+                          "help-center/fizen-pay/for-merchants/point-of-sale-pos/help-your-customers-pay-using-a-pos",
+                          "help-center/fizen-pay/for-merchants/point-of-sale-pos/edit-disable-delete-a-pos"
+                        ]
+                      },
+                      {
+                        "group": "Payments",
+                        "pages": [
+                          "help-center/fizen-pay/for-merchants/payments/payments",
+                          "help-center/fizen-pay/for-merchants/payments/payment-statuses",
+                          "help-center/fizen-pay/for-merchants/payments/filter-payments",
+                          "help-center/fizen-pay/for-merchants/payments/payment-details-page",
+                          "help-center/fizen-pay/for-merchants/payments/mark-a-payment-as-resolved",
+                          "help-center/fizen-pay/for-merchants/payments/mark-a-payment-as-refunded"
+                        ]
+                      },
+                      {
+                        "group": "Account Settings",
+                        "pages": [
+                          "help-center/fizen-pay/for-merchants/account-settings/account-settings",
+                          "help-center/fizen-pay/for-merchants/account-settings/account-information",
+                          "help-center/fizen-pay/for-merchants/account-settings/two-step-verification",
+                          "help-center/fizen-pay/for-merchants/account-settings/payment-settings",
+                          "help-center/fizen-pay/for-merchants/account-settings/auto-withdrawals",
+                          "help-center/fizen-pay/for-merchants/account-settings/api-keys-va-webhook-subscription",
+                          "help-center/fizen-pay/for-merchants/account-settings/close-account"
+                        ]
+                      },
+                      "help-center/fizen-pay/for-merchants/crypto-settings"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "Fizen Card",
+                "pages": [
+                  "help-center/fizen-card/fizen-card",
+                  "help-center/fizen-card/apply-for-a-fizen-card",
+                  "help-center/fizen-card/top-up-and-pay",
+                  "help-center/fizen-card/add-card-to-google-pay-apple-pay",
+                  "help-center/fizen-card/manage-card",
+                  "help-center/fizen-card/benefits",
+                  "help-center/fizen-card/fees-and-limitations",
+                  "help-center/fizen-card/unsupported-countries",
+                  "help-center/fizen-card/exceptions-for-unsupported-countries"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Information",
+            "pages": [
+              "information/brand-guidelines",
+              "information/contact-and-community",
+              "information/terms-of-use",
+              "information/privacy-policy",
+              "information/disclaimer"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
