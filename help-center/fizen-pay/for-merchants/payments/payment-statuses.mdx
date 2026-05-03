@@ -1,0 +1,17 @@
+---
+title: "Payment Statuses"
+---
+
+
+Payments could have one of the following statuses:
+
+| STATUS    | Description                                                                                                                   | Possible actions                                                        |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| PENDING   | A payment transaction is detected on the blockchain, but has not been validated yet                                           | You can mark this payment as refunded.                                  |
+| COMPLETED | The payment was received, the received amount was equal to the original amount.                                               | You can mark this payment as refunded.                                  |
+| UNDERPAID | The payment was received, but the received amount was less than the original amount.                                          | You can mark this payment as resolved or refunded.                      |
+| OVERPAID  | The payment was received, but the received amount was more than the original amount.                                          | You can mark this payment as resolved or refunded.                      |
+| DELAYED   | The payment was received, but the payment transaction was detected later than 24 hours after the payment request was created. | You can mark this payment as resolved.                                  |
+| MULTIPLE  | More than one payment transaction was detected for the payment request.                                                       | You can mark this payment as resolved or refunded.                      |
+| RESOLVED  | The invoice has been marked as resolved by you.                                                                               | You can mark this payment as refunded instead (if you have not before). |
+| REFUNDED  | The invoice has been marked as refunded by you.                                                                               | You can mark this payment as resolved instead (if you have not before). |

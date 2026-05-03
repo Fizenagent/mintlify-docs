@@ -1,0 +1,43 @@
+---
+title: "Payment settings"
+---
+
+
+You could set up your payments in **Payment settings**
+
+<figure><img src="https://lh5.googleusercontent.com/xOA379JVtBV8Upb3DdkftsKp_fVll7lrEhOtnavO-fPD_TptI2OuaezQCORxlLynQEF6M89HkCxe7h6Z5x5Jn7KkwaFsxtLy6MYgUW-P6787gSlQerCIAPN0kEILEuyddHHPk7BVmubrYofeH4nNGUo" alt=""><figcaption></figcaption></figure>
+
+### **Local currency**
+
+This is the fiat currency displayed under the crypto currency value in Fizen Pay dashboard, and also when you create a new invoice. You can change local currency by selecting from the dropdown.
+
+<figure><img src="https://lh6.googleusercontent.com/Mi4RiQgsqbWjSzu8MBuUH7ItaWyv0UkAPtRtWJ0wrzVLVfBFj_fZpb7S5kr8vbDffpX09qE1LnIMK-xKEggPcs2egNYhbP46ND1joBlecShSlxDonNU2wjyuxjpCKZEuUV_gCwR2lCJvS0OGs5nTxtk" alt=""><figcaption></figcaption></figure>
+
+### **Flexible currency**
+
+Due to the volatile nature of cryptocurrency, the price of specific cryptos can change between the time a payment is initiated to the time the payment is received. If your customer’s wallet uses a significantly different exchange rate than Fizen Pay, prices can fluctuate even more.
+
+Now as a merchant, you can set up Flexible Payments to accept payments that are slightly above or below your listed price.&#x20;
+
+Your customers will not see these thresholds.
+
+You can set the thresholds in either absolute numbers or in relative percentages.
+
+<figure><img src="https://lh6.googleusercontent.com/9V4sZBv3NLLUCJEsZS8E7kSrUl5BC7JmE3_YaI0C6DCiF7eL3bvYiuDMhhaVntkRUZun8QZmWowwhjTundSNFJBnu5C6qciUQdE54Ro8BdjpOyF9gZ-7sRqY7cj_PWhUkZE2u3sPrt3F6HWBf-IEG8s" alt=""><figcaption></figcaption></figure>
+
+\- **Absolute**: An absolute threshold is a number value that the underpayment or overpayment from a customer can fall within while still being approved and marked as a Complete payment.
+
+Example: Set absolute underpayments threshold = $0.1 means you accept a payment of $9.9 for a $10 order. Set absolute overpayments threshold = $0.1 means you accept a payment of $10.1 for a $10 order.&#x20;
+
+**Important: The currency in Local currency, Underpayments threshold, Overpayments threshold must be the same.**
+
+\- **Relative**:&#x20;
+
+A relative threshold is a percentage that the underpayment or overpayment from a customer can fall within while still being approved and marked as a Complete payment.
+
+Example: Set relative underpayments threshold = 1% meaning you accept a payment of $99 for a $100 order. Set relative overpayments threshold = 1% meaning you accept a payment of $101 for a $100 order.
+
+If the difference between the received payment and the listed price exceed the underpayment threshold, the payment will be marked as UNDERPAID
+
+If the difference between the received payment and the listed price exceed the overpayment threshold, the payment will be marked as OVERPAID
+
