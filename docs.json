@@ -8,8 +8,8 @@
     "dark": "#1039a8"
   },
   "logo": {
-    "dark": "/logo/fizen-white.svg",
-    "light": "/logo/fizen-dark.svg"
+    "dark": "/logo/fizen-white.png",
+    "light": "/logo/fizen-dark.png"
   },
   "favicon": "/favicon.png",
   "navbar": {
