@@ -1,4 +1,5 @@
 {
+  "$schema": "https://mintlify.com/schema.json",
   "name": "Fizen Docs",
   "logo": {
     "dark": "/logo/fizen-white.svg",
@@ -9,45 +10,24 @@
     "primary": "#1a56db",
     "light": "#4f83f1",
     "dark": "#1039a8",
-    "anchors": {
-      "from": "#1a56db",
-      "to": "#4f83f1"
-    }
+    "anchors": { "from": "#1a56db", "to": "#4f83f1" }
   },
   "topbarLinks": [
-    {
-      "name": "Get Fizen Card",
-      "url": "https://fizen.io/card"
-    }
+    { "name": "Get Fizen Card", "url": "https://fizen.io/card" }
   ],
   "topbarCtaButton": {
     "name": "Download App",
     "url": "https://url.fizen.io/downloadgb"
   },
   "anchors": [
-    {
-      "name": "Telegram",
-      "icon": "telegram",
-      "url": "https://t.me/fizen_io"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://blog.fizen.io"
-    },
-    {
-      "name": "Support",
-      "icon": "envelope",
-      "url": "mailto:support@fizen.io"
-    }
+    { "name": "Telegram", "icon": "telegram", "url": "https://t.me/fizen_io" },
+    { "name": "Blog", "icon": "newspaper", "url": "https://blog.fizen.io" },
+    { "name": "Support", "icon": "envelope", "url": "mailto:support@fizen.io" }
   ],
   "navigation": [
     {
       "group": "",
-      "pages": [
-        "welcome",
-        "events"
-      ]
+      "pages": ["welcome", "events"]
     },
     {
       "group": "General Introduction to Fizen",
@@ -286,6 +266,5 @@
     "telegram": "https://t.me/fizen_io",
     "linkedin": "https://www.linkedin.com/company/fizen-io/",
     "youtube": "https://www.youtube.com/@fizenio"
-  },
-  "theme": "mint"
+  }
 }
