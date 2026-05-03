@@ -3,23 +3,23 @@
   "theme": "mint",
   "name": "Fizen Docs",
   "colors": {
-    "primary": "#1a56db",
-    "light": "#4f83f1",
-    "dark": "#1039a8"
+    "primary": "#6E3BFF",
+    "light": "#46E0E1",
+    "dark": "#6E3BFF"
   },
   "logo": {
-    "dark": "/logo/fizen-white.svg",
-    "light": "/logo/fizen-dark.svg"
+    "dark": "/logo/fizen-white.png",
+    "light": "/logo/fizen-dark.png"
   },
-  "favicon": "/favicon.png",
+  "favicon": "/favicon.ico",
   "navbar": {
     "links": [
-      { "label": "Get Fizen Card", "href": "https://fizen.io/card" }
+      { "label": "Get Fizen Card", "href": "https://card.fizen.io/create?utm_source=docs_mintlify&utm_medium=docs" }
     ],
     "primary": {
       "type": "button",
       "label": "Download App",
-      "href": "https://url.fizen.io/downloadgb"
+      "href": "https://url.fizen.io/downloadgb?utm_source=docs_mintlify&utm_medium=docs"
     }
   },
   "footer": {
