@@ -17,6 +17,7 @@
       { "label": "Get Fizen Card", "href": "https://fizen.io/card" }
     ],
     "primary": {
+      "type": "button",
       "label": "Download App",
       "href": "https://url.fizen.io/downloadgb"
     }
