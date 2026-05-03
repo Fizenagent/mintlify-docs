@@ -1,17 +1,17 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
   "name": "Fizen Docs",
+  "colors": {
+    "primary": "#1a56db",
+    "light": "#4f83f1",
+    "dark": "#1039a8"
+  },
   "logo": {
     "dark": "/logo/fizen-white.svg",
     "light": "/logo/fizen-dark.svg"
   },
   "favicon": "/favicon.png",
-  "colors": {
-    "primary": "#1a56db",
-    "light": "#4f83f1",
-    "dark": "#1039a8",
-    "anchors": { "from": "#1a56db", "to": "#4f83f1" }
-  },
   "topbarLinks": [
     { "name": "Get Fizen Card", "url": "https://fizen.io/card" }
   ],
