@@ -8,8 +8,8 @@
     "dark": "#6E3BFF"
   },
   "logo": {
-    "dark": "/logo/fizen-white.png",
-    "light": "/logo/fizen-dark.png"
+    "dark": "https://raw.githubusercontent.com/Fizenagent/mintlify-docs/main/logo/fizen-white.png",
+    "light": "https://raw.githubusercontent.com/Fizenagent/mintlify-docs/main/logo/fizen-dark.png"
   },
   "favicon": "/favicon.ico",
   "navbar": {
@@ -40,16 +40,6 @@
           "anchor": "Discord",
           "href": "https://url.fizen.io/discord",
           "icon": "discord"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://blog.fizen.io",
-          "icon": "newspaper"
-        },
-        {
-          "anchor": "Support",
-          "href": "mailto:cs@fizen.io",
-          "icon": "envelope"
         }
       ]
     },
