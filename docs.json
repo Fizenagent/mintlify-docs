@@ -8,8 +8,8 @@
     "dark": "#6E3BFF"
   },
   "logo": {
-    "dark": "https://raw.githubusercontent.com/Fizenagent/mintlify-docs/main/logo/fizen-white.png",
-    "light": "https://raw.githubusercontent.com/Fizenagent/mintlify-docs/main/logo/fizen-dark.png"
+    "dark": "/logo/fizen-white.png",
+    "light": "/logo/fizen-dark.png"
   },
   "favicon": "/favicon.ico",
   "navbar": {
@@ -28,10 +28,20 @@
   "footer": {
     "socials": {
       "x": "https://twitter.com/fizenapp",
-      "telegram": "https://t.me/fizen_io",
-      "linkedin": "https://www.linkedin.com/company/fizen-io/",
-      "youtube": "https://www.youtube.com/@fizenio"
-    }
+      "discord": "https://url.fizen.io/discord",
+      "linkedin": "https://www.linkedin.com/company/fizen-io/"
+    },
+    "links": [
+      {
+        "header": "Resources",
+        "items": [
+          {
+            "label": "Blog",
+            "href": "https://blog.fizen.io"
+          }
+        ]
+      }
+    ]
   },
   "navigation": {
     "global": {
