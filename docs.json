@@ -14,7 +14,10 @@
   "favicon": "/favicon.ico",
   "navbar": {
     "links": [
-      { "label": "Get Fizen Card", "href": "https://card.fizen.io/create?utm_source=docs_mintlify&utm_medium=docs" }
+      {
+        "label": "Get Fizen Card",
+        "href": "https://card.fizen.io/create?utm_source=docs_mintlify&utm_medium=docs"
+      }
     ],
     "primary": {
       "type": "button",
@@ -33,9 +36,21 @@
   "navigation": {
     "global": {
       "anchors": [
-        { "anchor": "Telegram", "href": "https://url.fizen.io/telegram", "icon": "telegram" },
-        { "anchor": "Blog", "href": "https://blog.fizen.io", "icon": "newspaper" },
-        { "anchor": "Support", "href": "mailto:cs@fizen.io", "icon": "envelope" }
+        {
+          "anchor": "Discord",
+          "href": "https://url.fizen.io/discord",
+          "icon": "discord"
+        },
+        {
+          "anchor": "Blog",
+          "href": "https://blog.fizen.io",
+          "icon": "newspaper"
+        },
+        {
+          "anchor": "Support",
+          "href": "mailto:cs@fizen.io",
+          "icon": "envelope"
+        }
       ]
     },
     "tabs": [
@@ -44,7 +59,10 @@
         "groups": [
           {
             "group": "Welcome",
-            "pages": ["index", "events"]
+            "pages": [
+              "index",
+              "events"
+            ]
           },
           {
             "group": "General Introduction to Fizen",
@@ -62,9 +80,9 @@
               {
                 "group": "Products",
                 "pages": [
+                  "general-introduction-to-fizen/products/products",
                   "general-introduction-to-fizen/products/fizen-app",
-                  "general-introduction-to-fizen/products/fizen-pay",
-                  "general-introduction-to-fizen/products/fizen-card"
+                  "general-introduction-to-fizen/products/fizen-pay"
                 ]
               },
               {
@@ -262,8 +280,7 @@
                   "help-center/fizen-card/benefits",
                   "help-center/fizen-card/fees-and-limitations",
                   "help-center/fizen-card/unsupported-countries",
-                  "help-center/fizen-card/exceptions-for-unsupported-countries",
-                  "help-center/fizen-card/faq"
+                  "help-center/fizen-card/exceptions-for-unsupported-countries"
                 ]
               }
             ]
