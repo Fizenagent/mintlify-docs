@@ -30,18 +30,7 @@
       "x": "https://twitter.com/fizenapp",
       "discord": "https://url.fizen.io/discord",
       "linkedin": "https://www.linkedin.com/company/fizen-io/"
-    },
-    "links": [
-      {
-        "header": "Resources",
-        "items": [
-          {
-            "label": "Blog",
-            "href": "https://blog.fizen.io"
-          }
-        ]
-      }
-    ]
+    }
   },
   "navigation": {
     "global": {
@@ -50,6 +39,11 @@
           "anchor": "Discord",
           "href": "https://url.fizen.io/discord",
           "icon": "discord"
+        },
+        {
+          "anchor": "Blog",
+          "href": "https://blog.fizen.io",
+          "icon": "newspaper"
         }
       ]
     },
