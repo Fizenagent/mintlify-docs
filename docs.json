@@ -288,15 +288,18 @@
               "information/privacy-policy",
               "information/disclaimer"
             ]
+          },
+          {
+            "group": "Terms of Use",
+            "pages": [
+              "untitled-page",
+              "reward"
+            ]
           }
         ]
       },
       {
-        "tab": "Terms of Use",
-        "pages": [
-          "untitled-page",
-          "reward"
-        ]
+        "tab": "Terms of Use"
       }
     ]
   }
