@@ -285,7 +285,7 @@
               "information/brand-guidelines",
               "information/contact-and-community",
               "information/terms-of-use",
-              "information/privacy-policy",
+              "privacy",
               "information/disclaimer"
             ]
           },
@@ -293,8 +293,7 @@
             "group": "Terms of Use",
             "pages": [
               "untitled-page",
-              "reward",
-              "privacy"
+              "reward"
             ]
           }
         ]
