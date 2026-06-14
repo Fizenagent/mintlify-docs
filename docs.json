@@ -286,15 +286,25 @@
               "information/contact-and-community",
               "information/terms-of-use",
               "privacy",
-              "information/disclaimer",
-              "information/cookie-policy"
+              "information/cookie-policy",
+              "information/disclaimer"
             ]
           },
           {
             "group": "Terms of Use",
             "pages": [
-              "untitled-page",
-              "reward"
+              "master-terms-of-use",
+              "promotion-master-terms",
+              "reward",
+              {
+                "group": "Product Terms",
+                "pages": [
+                  "fizen-wallet",
+                  "fizen-crypto-card",
+                  "fizen-qr-pay",
+                  "tokenized-rwa"
+                ]
+              }
             ]
           }
         ]

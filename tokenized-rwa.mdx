@@ -1,0 +1,217 @@
+---
+title: "Fizen Tokenized Securities Terms"
+description: "On-chain trading interface to Ondo-issued tokenized securities. Read together with the Fizen Master Terms of Use."
+---
+
+**Effective: 5 June 2026**
+
+## Important Notice
+
+<Warning>
+  THE FIZEN TOKENIZED SECURITIES FEATURE IS A USER-INTERFACE LAYER WITHIN THE FIZEN PLATFORM THAT LETS YOU ACCESS TOKENIZED SECURITIES TOKENS ISSUED BY ONDO FINANCE INC. AND ITS AFFILIATES ("ONDO") AND TRADE THEM ON-CHAIN THROUGH A DECENTRALISED EXCHANGE AGGREGATOR (1INCH FUSION).
+
+  FIZEN IS NOT A BROKER, NOT A DEALER, NOT AN EXCHANGE, NOT AN INVESTMENT ADVISER, NOT A SECURITIES INTERMEDIARY, AND NOT A LICENSED OPERATOR OF A MULTILATERAL OR ORGANISED TRADING FACILITY IN ANY JURISDICTION. FIZEN DOES NOT ISSUE THE TOKENS, DOES NOT MAINTAIN AN ORDER BOOK OR MATCHING ENGINE, DOES NOT TAKE OR HOLD USER FUNDS DURING TRADING, DOES NOT LIST OR DE-LIST TOKENS, DOES NOT SELECT TOKENS FOR YOU, DOES NOT RECOMMEND TOKENS, AND DOES NOT GIVE INVESTMENT ADVICE.
+
+  YOU TRADE ON-CHAIN BY SIGNING TRANSACTIONS WITH YOUR OWN NON-CUSTODIAL FIZEN WALLET. TOKENS SETTLE TO YOUR OWN NON-CUSTODIAL FIZEN WALLET. FIZEN DOES NOT CUSTODY THE TOKENS AT ANY POINT.
+
+  TOKENIZED SECURITIES ARE A NOVEL ASSET CLASS WHOSE LEGAL AND REGULATORY TREATMENT IS UNCERTAIN AND IS DIFFERENT IN EVERY JURISDICTION. YOU ARE SOLELY RESPONSIBLE FOR ENSURING THAT YOUR ACQUISITION, HOLDING AND DISPOSAL OF ANY TOKENIZED SECURITY COMPLIES WITH APPLICABLE LAW WHERE YOU ARE LOCATED.
+
+  THE TOKENIZED SECURITIES FEATURE IS NOT AVAILABLE TO U.S. PERSONS. U.S. PERSON STATUS IS ASSESSED BY FIZEN USING IP, KYC AND BEHAVIOURAL SIGNALS, AND BY ONDO USING ITS OWN ELIGIBILITY CHECKS. CIRCUMVENTION ATTEMPTS ARE A MATERIAL BREACH OF THESE TERMS AND OF THE FIZEN MASTER TERMS OF USE AND MAY RESULT IN PERMANENT ACCOUNT BAN AND REPORTING TO AUTHORITIES.
+
+  YOU MAY LOSE ALL OR SUBSTANTIALLY ALL OF THE VALUE OF ANY TOKENIZED SECURITY. PAST PERFORMANCE IS NOT INDICATIVE OF FUTURE RESULTS.
+</Warning>
+
+By accessing or using the Tokenized Securities feature, you confirm that you have read, understood and agreed to these Fizen Tokenized Securities Terms (the "TS Terms"), the Fizen Master Terms of Use and any Ondo offering documents made available to you.
+
+## 1. Definitions
+
+- **1inch Fusion** — the on-chain trading and routing protocol operated by the 1inch Network, through which tokenized-security trades are matched against Ondo Resolvers and executed.
+- **Eligible Token** — a tokenized security token issued by Ondo that Fizen, through Ondo's API, makes visible in the Tokenized Securities feature of the Fizen app from time to time.
+- **Ondo** — Ondo Finance Inc. and its Affiliates, including (without limitation) Ondo Capital Management LLC, the issuer of certain tokenized securities including those marketed under names such as OUSG and any other token Fizen surfaces from time to time.
+- **Ondo Offering Documents** — the prospectus, private placement memorandum, offering circular, technical paper, risk disclosure or other primary offering or disclosure document published or made available by Ondo for an Eligible Token.
+- **Resolver** — an on-chain market maker or liquidity provider that has been onboarded by Ondo and 1inch (Ondo conducts its own KYB on Resolvers) and that provides liquidity for trades in Eligible Tokens through 1inch Fusion.
+- **Tokenized Security** — an Eligible Token that, by its terms, represents an interest in an underlying real-world security (such as a U.S. Treasury bill, a money-market fund, a publicly listed share, or a similar instrument).
+- **U.S. Person** — a "U.S. person" within the meaning of Rule 902(k) of Regulation S under the U.S. Securities Act of 1933 (as amended), including a natural person resident in the United States, an entity organised or incorporated under the laws of the United States, an estate of which an executor or administrator is a U.S. person, a trust of which a trustee is a U.S. person, a non-discretionary account held by a dealer or other fiduciary for a U.S. person, and other persons identified in Rule 902(k).
+
+## 2. What the Tokenized Securities Feature Is — and What It Is Not
+
+### 2.1 What it is
+
+The Tokenized Securities feature is a user-interface layer within the Fizen app that:
+
+- displays the catalogue of Eligible Tokens that Ondo has made available, by reading Ondo's public API. Fizen does not curate, rank, select, recommend, label as 'popular' or otherwise editorialise this catalogue; Fizen surfaces what Ondo publishes;
+- displays market data (indicative prices, descriptions of the underlying security, risk warnings) provided by Ondo via the Ondo API;
+- provides the user-interface controls that let you initiate a trade by signing an on-chain transaction with your own Private Key in the Fizen Wallet; and
+- forwards the signed transaction to 1inch Fusion for on-chain execution against Ondo Resolvers.
+
+### 2.2 What it is not
+
+Fizen, through the Tokenized Securities feature:
+
+- does not issue any Eligible Token; Ondo is the issuer;
+- does not solicit, offer for sale, advertise the sale of, recommend, advise on, or actively distribute any Eligible Token;
+- does not act as broker, dealer, agent, market maker, principal, or other intermediary for any trade;
+- does not maintain an order book, a matching engine, a multilateral or organised trading facility, an alternative trading system, or any centralised matching service;
+- does not take, hold, receive, pool, transmit, custody, settle for, deliver to, or have access to any user funds, tokens or Eligible Tokens at any stage of the trade;
+- does not provide investment, financial, tax, legal or accounting advice;
+- does not perform KYC or any other customer-due-diligence on you for the purpose of accessing this feature (you may have completed KYC for other Fizen Services; that KYC is used for sanctions and U.S.-Person screening in respect of this feature, but it is not a regulatory KYC for the trade itself);
+- does not list or de-list Eligible Tokens; that decision is made by Ondo;
+- does not warrant the licensing status, securities-law treatment or regulatory characterisation of any Eligible Token in any jurisdiction.
+
+### 2.3 Ondo's role
+
+Ondo is the issuer of the Eligible Tokens. Ondo (or one of its Affiliates) holds the underlying real-world securities or other underlying assets that back the Eligible Tokens. Ondo issues, redeems and structures the Eligible Tokens, and conducts its own KYB on its Resolvers. Ondo does not sell Eligible Tokens directly to retail users through the Fizen interface. Ondo's terms, offering documents and eligibility restrictions apply to the Eligible Tokens; the version of those documents in force at the time of your trade prevails over anything inconsistent in these TS Terms or in the Fizen app.
+
+### 2.4 1inch Fusion's role
+
+1inch Fusion is an independent decentralised exchange protocol operated by the 1inch Network. When you sign a trade in the Fizen app, the signed transaction is forwarded to 1inch Fusion, which matches and routes it against on-chain Resolvers. Trade execution, price, slippage and settlement are determined by the 1inch Fusion protocol and the participating Resolvers, not by Fizen. The 1inch Network terms apply to this routing.
+
+## 3. Eligibility — U.S. Persons Excluded
+
+<Info>
+  The Tokenized Securities feature is not made available to U.S. Persons. The exclusion is enforced at the application layer using IP, KYC and behavioural signals, and is additionally enforced by Ondo. Use of the feature by, or attempted use by, a U.S. Person is a material breach of these TS Terms and may result in permanent account ban and reporting to authorities.
+</Info>
+
+### 3.1 General eligibility
+
+To use the Tokenized Securities feature, you must:
+
+- satisfy all eligibility requirements in clause 5 of the Fizen Master Terms of Use;
+- not be a U.S. Person;
+- not be habitually resident in, or accessing the feature from, any jurisdiction in which Fizen has determined the feature is not available (which includes, at a minimum, the United States, U.S. territories, comprehensively sanctioned jurisdictions, and any jurisdiction in which Ondo has restricted the relevant Eligible Token);
+- be eligible to acquire and hold the relevant Eligible Token under the Ondo Offering Documents for that token, including any investor-eligibility criteria (such as 'accredited investor', 'professional investor', 'qualified investor', 'qualified purchaser' or analogous categories) that Ondo imposes;
+- not be on, or owned (50% or more) or controlled by a person on, any sanctions or restricted-party list;
+- comply with all Applicable Law applicable to you in respect of the acquisition, holding and disposal of the Eligible Token in your jurisdiction; and
+- accept these TS Terms and any additional disclosures Ondo makes available at the time of the trade.
+
+### 3.2 Multi-layer enforcement of the U.S.-Person exclusion
+
+Fizen enforces the U.S.-Person exclusion through (a) IP-based geo-blocking of the feature for connections originating in the United States, (b) where you have completed KYC for another Fizen Service, the KYC data (nationality, residential address, identification documents, tax residency where collected), (c) behavioural signals consistent with U.S. activity (including language, time-zone, transaction patterns), and (d) on-detection ban (Fizen reserves the right to revoke access to the feature and to the broader Fizen Platform if Fizen has reason to believe the user is a U.S. Person regardless of any KYC data on file). Ondo operates its own eligibility checks at the protocol layer and may decline to route trades that fail those checks.
+
+### 3.3 No reliance on the feature to determine your own eligibility
+
+The fact that the Tokenized Securities feature appears in your Fizen app does not constitute Fizen's confirmation that you are eligible to use it under Applicable Law in your jurisdiction. You bear sole responsibility for determining your eligibility, including obtaining your own legal, tax and investment advice. Fizen's geo-blocking and signal-based enforcement is a risk-management tool for Fizen, not a regulatory determination for your benefit.
+
+### 3.4 Your representations on each trade
+
+Each time you use the Tokenized Securities feature, you represent and warrant (and Fizen relies on those representations in making the feature available to you) that:
+
+- you are not a U.S. Person;
+- you are not located in, or accessing the feature from, any jurisdiction in which the feature is not made available;
+- you are eligible to acquire and hold the Eligible Token in question under the Ondo Offering Documents, including any investor-eligibility criteria;
+- your acquisition, holding and disposal of the Eligible Token complies with Applicable Law where you are located;
+- you have read and understood the relevant Ondo Offering Documents and the risk disclosures in these TS Terms;
+- you are not relying on Fizen for any selection, recommendation, advice, suitability assessment or eligibility determination;
+- you understand that Eligible Tokens may have lockup, transfer or holding-period restrictions, and you accept those restrictions;
+- you are acting for your own account and not on behalf of any undisclosed third party (or, if you are acting in an authorised representative capacity, you are duly authorised and you and the principal both satisfy these representations); and
+- you are not relying on any expectation of profit from the entrepreneurial or managerial efforts of Fizen.
+
+## 4. How a Trade Works
+
+When you use the Tokenized Securities feature to trade an Eligible Token:
+
+- you select the Eligible Token in the Fizen app from the catalogue surfaced from the Ondo API;
+- the Fizen app displays the indicative price, the spread, an estimate of the slippage tolerance, the fees applicable to the trade, and any Ondo-supplied disclosures or risk warnings;
+- you review and confirm the trade. Confirmation requires you to sign the resulting on-chain transaction using your Private Key in the Fizen Wallet. By signing, you authorise the transaction. Fizen does not, and cannot, sign on your behalf;
+- the signed transaction is forwarded to 1inch Fusion, which matches and routes it against participating Resolvers;
+- the Eligible Token (or, for a sale, the proceeds in the supported settlement asset) settles directly to your Fizen Wallet on-chain. Fizen does not take or hold the token, the funds or any intermediate position; and
+- Fizen does not control execution price, execution timing, slippage outcome, Resolver selection or any other parameter of the on-chain trade. Execution is a function of the 1inch Fusion protocol and the Resolvers' on-chain liquidity.
+
+## 5. Fees
+
+The total cost of a trade may include: (a) the spread or fee retained by the Resolver, (b) the 1inch Fusion protocol fee, (c) any Ondo issuance, redemption or programme fee built into the Eligible Token, (d) Blockchain network (gas) fees you pay to validators, and (e) a Fizen interface fee, if any, as disclosed in the Fee Schedule and at the point of trade. Fees are deducted from the trade automatically and are not separately billed.
+
+## 6. No Investment, Tax or Legal Advice; No Solicitation
+
+Nothing made available through the Tokenized Securities feature — including the catalogue of Eligible Tokens, indicative prices, descriptions of the underlying assets, displayed yields or returns, search results, push notifications, educational content, in-app messaging, marketing communications, or any other information — constitutes (a) investment, financial, tax, legal or accounting advice, (b) a personal recommendation, (c) a suitability assessment, (d) an offer or solicitation to buy or sell any security or other instrument, (e) a financial promotion within the meaning of any applicable law, or (f) any form of distribution of securities. Fizen does not assess your individual circumstances, investment objectives, risk tolerance, financial situation or any other suitability factor.
+
+You are solely responsible for your investment decisions. You should consult independent qualified professionals before making any investment decision.
+
+## 7. Risk Disclosures
+
+Tokenized Securities involve significant and distinctive risks, including the risk of total loss. You should not use this feature unless you can bear total loss and have made your own independent enquiries. The principal risks include:
+
+### 7.1 Securities-law characterisation risk
+
+The legal characterisation of tokenized securities is uncertain and varies by jurisdiction. An Eligible Token may, in your jurisdiction, be a security, a financial instrument under MiFID II / MiCA, a unit in a collective investment scheme, a derivative, an e-money product, a virtual asset under HK AMLO, a digital payment token, or a regulated product under another regime. The acquisition, holding, distribution, marketing and disposal of such an instrument may be regulated in ways that you must comply with. Fizen does not determine your local-law treatment and is not a position to advise you on it.
+
+### 7.2 Market and liquidity risk
+
+The market for Eligible Tokens may be illiquid. You may not be able to exit a position at a price you consider acceptable, or at all. Spreads may widen significantly during periods of market stress. The price of an Eligible Token may not closely track the value of its underlying real-world security at all times.
+
+### 7.3 Issuer and underlying-asset risk
+
+Ondo, the issuer, may experience operational, regulatory, solvency, custodial or governance issues. The underlying real-world securities or assets that back Eligible Tokens are held by third-party custodians or vehicles arranged by Ondo and are subject to those custodians' and vehicles' risks. If Ondo or any underlying custodian fails, the value of the Eligible Token may be impaired or eliminated.
+
+### 7.4 Token-vs-underlying risk
+
+An Eligible Token is not the underlying security itself. It is a tokenized representation. The rights you have as a holder of the Eligible Token (including in respect of dividends, distributions, voting, corporate actions, redemption, transferability, and rights against the issuer or the underlying custodian) are defined by Ondo in the Ondo Offering Documents and may be materially less than the rights of a direct holder of the underlying security. In many cases, Eligible Tokens do not pass through dividends, distributions or voting rights to retail holders.
+
+### 7.5 Smart-contract and protocol risk
+
+Eligible Tokens, the 1inch Fusion protocol, and the Resolver infrastructure are implemented as smart contracts and on-chain protocols. They may contain bugs, vulnerabilities, oracle failures, governance failures or be exploited. Loss of value resulting from such failures is not recoverable by Fizen.
+
+### 7.6 MEV and execution risk
+
+On-chain trades are subject to MEV (maximal extractable value) extraction, front-running, sandwich attacks and other on-chain execution risks. The price you receive may be materially worse than the price displayed at quote time.
+
+### 7.7 Regulatory action risk
+
+Regulators in various jurisdictions may at any time bring enforcement action against Ondo, against 1inch, against Resolvers, against Fizen, or against the broader tokenized securities ecosystem. Enforcement action may result in (a) the trading of an Eligible Token being suspended or terminated, (b) an Eligible Token being required to be redeemed at a price set by the regulator or the issuer, (c) Fizen being required to disable the feature in your jurisdiction, or (d) other adverse consequences. Fizen reserves the right, in its sole discretion, to disable the feature in any jurisdiction at any time in response to regulatory developments.
+
+### 7.8 Sanctions and AML risk
+
+Resolvers, Ondo and Fizen may apply sanctions and AML screening at the protocol, infrastructure or application layer. Your trade may be blocked, delayed or reversed, and you and your wallet address may be reported to authorities.
+
+### 7.9 Tax risk
+
+The tax treatment of Eligible Tokens is uncertain and varies by jurisdiction. You may face income tax, capital gains tax, withholding tax, transaction tax, VAT/GST or other tax. Some jurisdictions may treat Eligible Tokens as collective-investment-scheme interests, others as derivatives, others as miscellaneous income. You are solely responsible for your tax.
+
+### 7.10 No insurance
+
+Eligible Tokens are not insured by any deposit-protection scheme, investor compensation scheme (such as SIPC in the United States), or analogous scheme.
+
+## 8. Acceptable Use
+
+In addition to the prohibited acts in the Master Terms of Use, you must not:
+
+- use a VPN, Tor, proxy, residential-proxy network or similar tool to access the Tokenized Securities feature from a jurisdiction in which it is not made available, or to evade the U.S.-Person exclusion;
+- provide false KYC information for any other Fizen Service in order to obtain access to the Tokenized Securities feature;
+- misrepresent your nationality, residence, tax residency or U.S.-Person status to Fizen, Ondo or any Resolver;
+- use the feature to manipulate the market in Eligible Tokens or in the underlying securities, including by wash trading, spoofing, layering or coordinated activity;
+- use the feature to acquire Eligible Tokens for resale or distribution to U.S. Persons or to other ineligible persons;
+- use the feature in any way that would cause Fizen, Ondo or 1inch to violate any law in any jurisdiction; or
+- attempt to exploit any bug, MEV vector, oracle failure or smart-contract flaw.
+
+Breach of this clause may result in immediate revocation of access to the Tokenized Securities feature, suspension or termination of your Fizen account, forfeiture of any balance, and reporting to authorities.
+
+## 9. Compliance and Reservation of Rights
+
+Fizen reserves the right, in its sole discretion and without prior notice where notice would be impracticable, to: (a) disable the Tokenized Securities feature in any jurisdiction at any time; (b) revoke your access to the feature; (c) refuse to surface, route or process any trade; (d) restrict the set of Eligible Tokens visible in your Fizen app; (e) request additional information or documentation from you (including investor-eligibility documentation, source-of-funds information and tax residency); (f) report you, your wallet addresses and your activity to regulators, Ondo, 1inch and law-enforcement authorities; and (g) cease offering the feature altogether. Such actions may be triggered by, among other things, regulatory action, Ondo's instructions, 1inch's instructions, Fizen's own assessment of risk, or your conduct.
+
+## 10. Disclaimers and Limitation of Liability
+
+<Warning>
+  TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE TOKENIZED SECURITIES FEATURE IS PROVIDED "AS IS" AND "AS AVAILABLE", AT YOUR OWN RISK. FIZEN DISCLAIMS ALL WARRANTIES, EXPRESS, IMPLIED OR STATUTORY, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AVAILABILITY, ACCURACY OF DATA, ACCURACY OF PRICES, AND NON-INFRINGEMENT. FIZEN MAKES NO REPRESENTATION OR WARRANTY (i) AS TO THE LEGAL CHARACTERISATION OF ANY ELIGIBLE TOKEN IN ANY JURISDICTION, (ii) AS TO ONDO'S OR ANY RESOLVER'S COMPLIANCE WITH APPLICABLE LAW, (iii) AS TO THE BACKING, CUSTODY OR REDEEMABILITY OF ANY UNDERLYING ASSET, (iv) AS TO THE AVAILABILITY OF LIQUIDITY FOR ANY ELIGIBLE TOKEN, OR (v) AS TO THE OUTCOME OR PROFITABILITY OF ANY TRADE.
+</Warning>
+
+To the maximum extent permitted by Applicable Law, Fizen and its Affiliates shall not be liable for any loss arising from: (a) your use of the Tokenized Securities feature; (b) any Eligible Token, including its design, performance, issuance, redemption, suspension, de-listing or insolvency; (c) the act, omission, performance, non-performance or insolvency of Ondo, any Resolver, 1inch, any custodian of an underlying asset, or any other third party; (d) market movements, slippage, MEV extraction or other on-chain execution outcomes; (e) regulatory action against Ondo, 1inch, any Resolver, or the tokenized securities ecosystem; or (f) any tax liability.
+
+Fizen's aggregate liability to you in respect of the Tokenized Securities feature shall not exceed the Fizen interface fee, if any, retained by Fizen in respect of the trades giving rise to the claim. Fizen's aggregate liability in respect of the feature in any twelve-month period shall not exceed the greater of (i) the total Fizen interface fees paid to Fizen in that period in respect of the feature, and (ii) USD 100. The limitations do not apply to the extent prohibited by Applicable Law.
+
+## 11. Indemnification
+
+To the maximum extent permitted by Applicable Law, you agree to defend, indemnify and hold harmless Fizen, Ondo, 1inch and their respective Affiliates, officers, directors, employees, agents, licensors and service providers from claims, damages, losses, liabilities, costs and expenses (including reasonable legal fees) arising from: (a) your use of the Tokenized Securities feature; (b) your breach of these TS Terms, the Fizen Master Terms of Use or the Ondo Offering Documents; (c) your violation of Applicable Law (including securities, sanctions, AML and tax laws); (d) your misrepresentation of your eligibility (including U.S.-Person status); (e) any infringement of third-party rights by you; or (f) any tax liability arising from your trades.
+
+## 12. Jurisdiction-Specific Notices
+
+- **United States.** The feature is not made available to U.S. Persons. Eligible Tokens have not been registered under the U.S. Securities Act of 1933 or with any U.S. state securities regulator and may not be offered or sold to U.S. Persons.
+- **European Economic Area.** Where an Eligible Token constitutes a 'financial instrument' under MiFID II (Directive 2014/65/EU), it falls outside the MiCA crypto-asset regime (Regulation (EU) 2023/1114, MiCA Article 2(4)) and is governed by MiFID II and national implementing legislation. Fizen does not provide investment services under MiFID II and is not authorised as an investment firm in any EEA member state.
+- **United Kingdom.** Where an Eligible Token is a 'specified investment' under the Regulated Activities Order (RAO), the carrying on of regulated activities in respect of it is restricted under the Financial Services and Markets Act 2000 (FSMA). The Tokenized Securities feature is made available to UK residents only insofar as such availability does not constitute the carrying on of a regulated activity in the United Kingdom by Fizen. The feature is not made available to retail clients to the extent the UK financial-promotion regime restricts such availability. UK residents should consult independent advice before using the feature.
+- **Hong Kong.** The Securities and Futures Ordinance (Cap. 571) regulates dealing in securities. To the extent any Eligible Token is a 'security' under SFO, the feature is made available only insofar as Fizen Limited's role does not constitute dealing in or advising on securities for the purposes of SFO. Fizen Limited holds no SFC licence.
+- **Singapore.** The Securities and Futures Act 2001 (SFA) regulates capital-markets products. To the extent any Eligible Token is a 'capital markets product' under the SFA, the feature is made available only insofar as Fizen's role does not constitute dealing in or advising on capital markets products. Fizen holds no Capital Markets Services licence from MAS.
+- **Other jurisdictions.** Fizen makes no representation that the feature is lawful in any other jurisdiction. You are solely responsible for assessing the lawfulness of your access in your jurisdiction.
+
+## 13. Miscellaneous
+
+Save as expressly varied by these TS Terms, the provisions of the Fizen Master Terms of Use (including dispute resolution, governing law, class-action and jury-trial waiver, notices and miscellaneous clauses) apply to your use of the Tokenized Securities feature. In the event of conflict between these TS Terms and the Ondo Offering Documents in respect of an Eligible Token, the Ondo Offering Documents prevail in respect of the matters they address. In the event of conflict between these TS Terms and the 1inch terms in respect of the execution of a trade, the 1inch terms prevail in respect of the execution.
