@@ -12,6 +12,16 @@
     "light": "/logo/fizen-dark.png"
   },
   "favicon": "/favicon.ico",
+  "banner": {
+    "content": "🎁 Get the Fizen Super App: spend USDT worldwide with a Visa card and QR pay. [Download the app →](https://url.fizen.io/downloadgb?utm_source=docs&utm_medium=banner&utm_campaign=docs_ribbon)",
+    "dismissible": true
+  },
+  "seo": {
+    "metatags": {
+      "google-site-verification": "uGVtbofcdcqBQ3zyCJumQsGCKZCqz-ljDTO15HhiBuw"
+    },
+    "indexing": "all"
+  },
   "navbar": {
     "links": [
       {
