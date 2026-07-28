@@ -1,31 +1,62 @@
 ---
 title: "Supported Devices"
-description: "Check if your phone supports eSIM before purchasing."
+description: "The full Fizen eSIM device compatibility list — check your phone in 10 seconds with the *#06# dial code."
 ---
 
-## How to check
+## Check in 10 seconds
 
-Go to **Settings → Cellular/Mobile Data → Add eSIM** on your phone. If this option appears, your device supports eSIM.
+<Steps>
+  <Step title="Dial *#06#">
+    Open the Dialer app and dial `*#06#`. If an **EID** barcode with a 32-digit number appears, your device supports eSIM.
+  </Step>
+  <Step title="Or check in Settings">
+    **iOS:** Settings → General → About → look for the **EID** field.
+    **Android:** Settings → About Phone → Status information (or SIM status) → look for **EID**.
+  </Step>
+  <Step title="Confirm your phone is carrier-unlocked">
+    eSIM hardware isn't enough — the phone must also be **carrier-unlocked**. See [Carrier lock check](#carrier-lock-check) below.
+  </Step>
+</Steps>
 
 ---
 
-## Compatible devices
+## Compatibility list
 
 | Brand | eSIM-compatible models |
 |---|---|
-| **Apple — iPhone** | iPhone XS, XR and all newer models |
-| **Apple — iPad** | iPad Pro (3rd gen+), iPad Air (3rd gen+), iPad (7th gen+) |
-| **Samsung** | Galaxy S20 and newer · Z Flip / Z Fold series · Note 20 and newer · A54 and newer |
-| **Google** | Pixel 3 and newer |
-| **Huawei** | P40 and newer |
-| **Xiaomi** | 12T Pro and newer |
-| **OPPO** | Find X5 and newer |
-| **Motorola** | Razr (2019) and newer |
+| **Apple — iPhone** | iPhone XS / XS Max / XR and all newer models (11 → 17 series, iPhone Air, SE 2020 / SE 2022) |
+| **Apple — iPad** | iPad Pro / iPad Air / iPad / iPad Mini (Wi-Fi + Cellular models only) |
+| **Samsung** | Galaxy S20 → S25 series · Note 20 series · Z Fold 1–6 / Z TriFold · Z Flip 5G → Flip 6 · A56 / A55 5G / A54 5G / A36 / A35 5G / A23 5G / A17 · S23 FE / S24 FE · XCover7 Pro |
+| **Google Pixel** | Pixel 2 and all newer models (incl. a-series, XL, Fold) |
+| **Xiaomi** | Xiaomi 15 / 15 Ultra / 15T series · 14 / 14T series · 13 / 13T / 13 Lite series · 12T Pro · Redmi Note 14 Pro series / Note 13 Pro 5G / Note 13 Pro+ 5G / Note 11 Pro 5G · Poco X7 / F8 Pro / F8 Ultra |
+| **Oppo / Realme** | Find N2 Flip / N3 / N3 Flip / N5 · Find X9 / X8 / X5 / X3 series · Reno 15 / 14 / 9 Pro / 6 Pro 5G · Realme GT 2 Pro / GT Neo 6 / 14 Pro+ |
+| **Vivo** | X300 / X200 / X100 Pro / X90 Pro · V50 / V40 / V40 Lite (Europe) / V29 / V29 Lite 5G (Europe) · iQOO 15 |
+| **Honor** | HONOR 400 Pro / 400 Lite / 200 / 200 Pro / 90 · Magic7 Pro / Magic7 Lite / Magic6 Pro / Magic5 Pro / Magic4 Pro · Magic V3 / V2 / Vs3 |
+| **Sony** | Xperia 1 VII / VI / V / IV · Xperia 5 V / IV · Xperia 10 VI / V / IV / III Lite |
+
+### Regional exceptions
 
 <Warning>
-  **Carrier-locked phones** may not support eSIM even if the model is listed above. Check with your carrier if you're unsure.
+  Some models sold in certain regions ship **without eSIM** even though the global model supports it:
+
+  - **Apple:** no eSIM on devices from Mainland China. Devices from Hong Kong & Macao have no eSIM except iPhone 13 mini, 12 mini, SE 2020, and XS.
+  - **Samsung:** no eSIM on devices from China, Hong Kong, and Taiwan; no eSIM on FE models except S23 FE / S24 FE; no eSIM on USA models of S20, S21, and Note 20 Ultra. In South Korea, only S24, S23, Z Fold 5/4, Z Flip 5/4, and A54 5G support eSIM.
+  - **Google:** no eSIM on Pixel 3 from Australia, Taiwan, Japan, or US/CA carrier models (except Sprint & Google Fi); no eSIM on Pixel 3a from Southeast Asia or Verizon.
+  - **Oppo / Realme:** eSIM is mainly supported on Japanese and specific international models.
+  - **Sony:** Xperia 10 IV supports eSIM in Europe only.
 </Warning>
 
+---
+
+## Carrier lock check
+
+Even with eSIM hardware, a **carrier-locked** phone can't install international eSIMs.
+
+- **iOS:** Settings → General → About → **Carrier Lock**. It must say **No SIM restrictions**.
+- **Android:** Settings → Connections → Mobile networks → **Network operators** → turn off "Select automatically". If other networks appear and can be selected, the phone is likely unlocked.
+
+If your phone is locked, contact the carrier you bought it from to unlock it.
+
 <Info>
-  Can't find your device? Contact support via the **in-app live chat** — we'll help you check.
+  Can't find your device, or `*#06#` shows nothing? Contact support via the **in-app live chat** — we'll help you check. Full list with the latest additions: [Which Phones Support eSIM in 2026](https://blog.fizen.io/which-phones-support-esim-in-2026-the-complete-compatibility-list/).
 </Info>
