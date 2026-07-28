@@ -86,7 +86,8 @@
                 "pages": [
                   "general-introduction-to-fizen/products/fizen-app",
                   "general-introduction-to-fizen/products/fizen-pay",
-                  "general-introduction-to-fizen/products/fizen-card"
+                  "general-introduction-to-fizen/products/fizen-card",
+                  "general-introduction-to-fizen/products/fizen-esim"
                 ]
               },
               {
@@ -285,6 +286,15 @@
                   "help-center/fizen-card/fees-and-limitations",
                   "help-center/fizen-card/unsupported-countries",
                   "help-center/fizen-card/exceptions-for-unsupported-countries"
+                ]
+              },
+              {
+                "group": "Fizen eSIM",
+                "pages": [
+                  "help-center/fizen-esim/fizen-esim",
+                  "help-center/fizen-esim/how-to-buy-an-esim",
+                  "help-center/fizen-esim/supported-devices",
+                  "help-center/fizen-esim/trip-guarantee"
                 ]
               }
             ]
