@@ -18,7 +18,13 @@
   },
   "seo": {
     "metatags": {
-      "google-site-verification": "uGVtbofcdcqBQ3zyCJumQsGCKZCqz-ljDTO15HhiBuw"
+      "google-site-verification": "uGVtbofcdcqBQ3zyCJumQsGCKZCqz-ljDTO15HhiBuw",
+      "og:image": "https://docs.fizen.io/images/og-fizen.png",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:alt": "Fizen — crypto neobank for travelers, freelancers and remote teams",
+      "twitter:image": "https://docs.fizen.io/images/og-fizen.png",
+      "twitter:card": "summary_large_image"
     },
     "indexing": "all"
   },
