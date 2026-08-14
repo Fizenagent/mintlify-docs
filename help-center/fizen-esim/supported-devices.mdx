@@ -1,28 +1,54 @@
 ---
 title: "Supported Devices"
-description: "The full Fizen eSIM device compatibility list — check your phone in 10 seconds with the *#06# dial code."
+description: "Check whether your phone supports eSIM before you buy — with the in-app device check, the *#06# dial code, and a reference list of known eSIM-capable models."
 ---
 
-## Check in 10 seconds
+<Warning>
+  **Check your own phone before you buy — the list below is a reference, not a guarantee.** eSIM support is decided by your device's manufacturer and carrier, and it changes over time. A model can appear on this list and still not accept an eSIM (see [why](#why-a-listed-model-can-still-fail) below). The reliable answer always comes from the device in your hand.
+</Warning>
+
+## Check your device in 3 ways
 
 <Steps>
-  <Step title="Dial *#06#">
-    Open the Dialer app and dial `*#06#`. If an **EID** barcode with a 32-digit number appears, your device supports eSIM.
+  <Step title="Use the device check in the Fizen App">
+    The eSIM section of the app includes a compatibility check. It's the quickest way to see whether your phone can take a Fizen eSIM before you pay.
   </Step>
-  <Step title="Or check in Settings">
+  <Step title="Dial *#06#">
+    Open the Dialer app and dial `*#06#`. If an **EID** barcode with a 32-digit number appears, your device has eSIM hardware.
+  </Step>
+  <Step title="Look for EID in Settings">
     **iOS:** Settings → General → About → look for the **EID** field.
     **Android:** Settings → About Phone → Status information (or SIM status) → look for **EID**.
   </Step>
-  <Step title="Confirm your phone is carrier-unlocked">
-    eSIM hardware isn't enough — the phone must also be **carrier-unlocked**. See [Carrier lock check](#carrier-lock-check) below.
-  </Step>
 </Steps>
+
+<Info>
+  Hardware isn't the whole story — the phone must also be **carrier-unlocked**. See [Carrier lock check](#carrier-lock-check) below.
+</Info>
 
 ---
 
-## Compatibility list
+## Why a listed model can still fail
 
-| Brand | eSIM-compatible models |
+The same model is not the same everywhere. A device can match the reference list and still be unable to install an eSIM because:
+
+- **Market variant** — the version sold in one country ships with eSIM, while the version of the same model sold in another country doesn't.
+- **Carrier edition** — phones sold bundled by a mobile operator may have eSIM disabled, or be SIM-locked to that operator.
+- **Firmware and policy changes** — manufacturers and carriers change firmware, activation policies and device whitelists at any time, without notifying eSIM providers.
+- **Managed devices** — company or school phones under MDM or an enterprise policy often block adding an eSIM.
+- **Modified or repaired devices** — jailbroken, rooted, unlocked-by-third-party or repaired phones with replaced parts may no longer accept eSIM, even when the model is listed.
+
+<Tip>
+  This is exactly why it pays to check first: an eSIM you **haven't installed** can be returned (minus the $1 fee, where the plan is refundable), but once it's installed it can't. See [1:1 Trip Guarantee & Refunds](/help-center/fizen-esim/trip-guarantee).
+</Tip>
+
+---
+
+## Reference list of eSIM-capable models
+
+Known eSIM-capable models at the time of writing. Treat it as a starting point and confirm with the checks above.
+
+| Brand | eSIM-capable models |
 |---|---|
 | **Apple — iPhone** | iPhone XS / XS Max / XR and all newer models (11 → 17 series, iPhone Air, SE 2020 / SE 2022) |
 | **Apple — iPad** | iPad (7th gen+) · iPad Air (3rd gen+) · iPad Pro 11" (1st gen+) · iPad Pro 12.9" (3rd gen+) · iPad Mini (5th gen+) — Wi-Fi + Cellular models only |
@@ -57,11 +83,11 @@ description: "The full Fizen eSIM device compatibility list — check your phone
   | **Microsoft** | Surface Pro 9 / Surface Go 3 / Surface Pro X |
 </Accordion>
 
-### Regional exceptions
+### Known regional exceptions
+
+Examples of models that ship **without eSIM** in certain markets. This list isn't exhaustive — market rules change, which is why the device check comes first.
 
 <Warning>
-  Some models sold in certain regions ship **without eSIM** even though the global model supports it:
-
   - **Apple:** no eSIM on iPhone/iPad from Mainland China. Hong Kong & Macao devices have no eSIM except iPhone 13 Mini, 12 Mini, SE 2020, and XS. **Turkey:** eSIM activates automatically only if the device was set up after June 23, 2020 — otherwise contact your carrier. iPads must be Wi-Fi + Cellular models.
   - **Samsung:** no eSIM on devices from China, Hong Kong, and Taiwan; no eSIM on FE models except S23 FE / S24 FE; no eSIM on USA models of S20, S21, and Note 20 Ultra. In South Korea, only S24, S23, Z Fold 5/4, Z Flip 5/4, and A54 5G support eSIM.
   - **Google:** no eSIM on Pixel 3 from Australia, Taiwan, Japan, or US/CA carrier models (except Sprint & Google Fi); no eSIM on Pixel 3a from Southeast Asia or Verizon.
@@ -83,6 +109,13 @@ Even with eSIM hardware, a **carrier-locked** phone can't install international 
 
 If your phone is locked, contact the carrier you bought it from to unlock it.
 
+---
+
+## If your device turns out not to support eSIM
+
+- **You haven't installed the eSIM yet** — you can return it for a refund, minus the flat $1 processing fee, where the plan is refundable. Message the in-app live chat with your Order ID.
+- **You already installed it** — an installed eSIM can't be returned, because installation consumes it. If it installed but doesn't work, that's a different case and it's covered: see [1:1 Trip Guarantee & Refunds](/help-center/fizen-esim/trip-guarantee).
+
 <Info>
-  Can't find your device, or `*#06#` shows nothing? Contact support via the **in-app live chat** — we'll help you check. Full list with the latest additions: [Which Phones Support eSIM in 2026](https://blog.fizen.io/which-phones-support-esim-in-2026-the-complete-compatibility-list/).
+  Can't find your device, or `*#06#` shows nothing? Contact support via the **in-app live chat** before you buy — we'll help you check. Full list with the latest additions: [Which Phones Support eSIM in 2026](https://blog.fizen.io/which-phones-support-esim-in-2026-the-complete-compatibility-list/).
 </Info>
