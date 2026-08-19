@@ -16,7 +16,7 @@
   },
   "favicon": "/favicon.ico",
   "banner": {
-    "content": "🎁 Get the Fizen Super App: spend USDT worldwide with a Visa card and QR pay. [Download the app →](https://fizen.io/app?accessCode=VJBw&utm_source=web&utm_medium=fizen&utm_campaign=app_download&utm_content=docs_banner&aid=6a6c68c27102b97a3142b221)",
+    "content": "🎁 Get the Fizen Super App: spend USDT worldwide with a Visa card and QR pay. [Download the app →](https://fizen.io/app?accessCode=fizen&utm_source=web&utm_medium=fizen&utm_campaign=app_download&utm_content=docs&aid=6a8573040a0aa1256a7e5935)",
     "dismissible": true
   },
   "seo": {
@@ -41,7 +41,7 @@
     "primary": {
       "type": "button",
       "label": "Download App",
-      "href": "https://fizen.io/app?accessCode=VJBw&utm_source=web&utm_medium=fizen&utm_campaign=app_download&utm_content=docs_navbar&aid=6a6c68c37102b97a3142b228"
+      "href": "https://fizen.io/app?accessCode=fizen&utm_source=web&utm_medium=fizen&utm_campaign=app_download&utm_content=docs&aid=6a8573040a0aa1256a7e5935"
     }
   },
   "footer": {
