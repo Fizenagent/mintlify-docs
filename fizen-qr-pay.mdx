@@ -5,159 +5,499 @@ description: "QR-based crypto-to-fiat payment service — cross-border use only.
 
 **Effective: 5 June 2026**
 
+These Fizen QR Pay Terms (the **“QR Pay Terms”**) govern your access to and use of Fizen QR Pay. They supplement and form part of the [Fizen Master Terms of Use](https://docs.fizen.io/master-terms-of-use) (the **“Master Terms”**). Capitalised terms not defined in these QR Pay Terms have the meanings given in the Master Terms.
+
+If there is a conflict between these QR Pay Terms and the Master Terms, these QR Pay Terms prevail only in relation to Fizen QR Pay.
+
 ## Important Notice
 
 <Warning>
-  FIZEN QR PAY LETS YOU PAY AT PARTICIPATING MERCHANTS IN VIETNAM AND THE PHILIPPINES BY SCANNING A QR CODE WITH THE FIZEN APP. YOU FUND QR PAY BY DEPOSITING USDT TO A FIZEN-CONTROLLED SMART CONTRACT (YOUR "QR PAY ACCOUNT"); FIZEN MAINTAINS YOUR BALANCE IN AN INTERNAL DATABASE; A LICENSED LOCAL PAYMENT PARTNER CONVERTS USDT TO LOCAL FIAT AND PAYS THE MERCHANT.
+  PLEASE READ THESE QR PAY TERMS CAREFULLY BEFORE FUNDING OR USING FIZEN QR PAY.
 
-  YOUR QR PAY BALANCE IS A PERSONAL CLAIM AGAINST FIZEN. ONCE YOU DEPOSIT USDT TO THE QR PAY ACCOUNT, YOU GIVE UP DIRECT CRYPTOGRAPHIC CONTROL OVER THAT USDT AND RELY ON FIZEN TO HONOUR YOUR BALANCE.
+  FIZEN QR PAY ALLOWS ELIGIBLE USERS TO PAY PARTICIPATING MERCHANTS THROUGH SUPPORTED LOCAL QR PAYMENT SCHEMES. YOU FUND QR PAY BY TRANSFERRING SUPPORTED DIGITAL ASSETS, CURRENTLY USDT, TO AN ADDRESS OR SMART CONTRACT DESIGNATED BY FIZEN.
 
-  YOUR QR PAY BALANCE IS NOT A BANK DEPOSIT. IT IS NOT INSURED BY ANY GOVERNMENTAL DEPOSIT-PROTECTION SCHEME. IF FIZEN BECOMES INSOLVENT, IS HACKED, LOSES KEYS, OR IS OTHERWISE UNABLE TO MEET ITS OBLIGATIONS, YOU MAY LOSE SOME OR ALL OF YOUR QR PAY BALANCE.
+  **YOUR TRANSFER IS A SALE AND TRANSFER OF OWNERSHIP TO FIZEN.** ONCE FIZEN ACCEPTS YOUR TRANSFER, LEGAL AND BENEFICIAL TITLE TO THE ACCEPTED DIGITAL ASSETS PASSES TO FIZEN. THE TRANSFERRED DIGITAL ASSETS ARE NOT HELD BY FIZEN ON TRUST, IN CUSTODY, ON DEPOSIT, OR IN A SEGREGATED WALLET FOR YOU.
 
-  FIZEN QR PAY IS AVAILABLE FOR CROSS-BORDER USE ONLY. YOU CANNOT USE QR PAY AT A MERCHANT IN YOUR OWN HOME JURISDICTION. A VIETNAMESE RESIDENT CANNOT USE QR PAY AT A VIETNAMESE MERCHANT. A PHILIPPINE RESIDENT CANNOT USE QR PAY AT A PHILIPPINE MERCHANT. THIS RESTRICTION IS ENFORCED AT THE APPLICATION LEVEL.
+  IN EXCHANGE, FIZEN RECORDS A QR PAY BALANCE REPRESENTING A CONTRACTUAL PAYMENT OBLIGATION OWED BY FIZEN TO YOU. YOUR QR PAY BALANCE IS AN UNSECURED CONTRACTUAL CLAIM AGAINST FIZEN. IT IS NOT A BANK ACCOUNT, BANK DEPOSIT, E-MONEY ACCOUNT, TRUST ACCOUNT, CUSTODIAL ACCOUNT OR OWNERSHIP INTEREST IN ANY DIGITAL ASSET, WALLET, SMART CONTRACT, BANK ACCOUNT OR PARTNER PREFUND.
 
-  FIZEN LIMITED IS NOT A LICENSED PAYMENT INTERMEDIARY IN VIETNAM, THE PHILIPPINES OR ANY OTHER JURISDICTION. THE LICENSED ACTIVITY IS PERFORMED BY THE LOCAL PAYMENT PARTNER IN EACH MARKET, UNDER ITS OWN LICENCE. FIZEN HAS APPLIED FOR ADMISSION TO THE VIETNAM REGULATORY SANDBOX; THE APPLICATION IS NOT ITSELF A LICENCE.
+  FIZEN MAY POOL, TRANSFER, CONVERT, USE OR OTHERWISE DEAL WITH DIGITAL ASSETS THAT IT OWNS. FIZEN USES ITS OWN ASSETS, INCLUDING AMOUNTS IT HAS PREFUNDED TO LOCAL PAYMENT PARTNERS, TO SUPPORT MERCHANT SETTLEMENT. LOCAL PAYMENT PARTNERS PERFORM THE LOCAL FIAT PAYMENT AND SETTLEMENT ACTIVITIES FOR WHICH THEY ARE RESPONSIBLE.
 
-  BLOCKCHAIN PAYMENTS ARE IRREVERSIBLE ONCE CONFIRMED. FIZEN CANNOT REVERSE A PAYMENT YOU HAVE AUTHORISED. DISPUTES OVER GOODS OR SERVICES MUST BE RESOLVED WITH THE MERCHANT.
+  YOUR QR PAY BALANCE IS NOT PROTECTED BY ANY GOVERNMENTAL DEPOSIT-PROTECTION OR INVESTOR-COMPENSATION SCHEME. IF FIZEN BECOMES INSOLVENT OR IS OTHERWISE UNABLE TO PERFORM ITS OBLIGATIONS, YOU MAY LOSE SOME OR ALL OF YOUR QR PAY BALANCE AND MAY RANK ONLY AS A GENERAL UNSECURED CREDITOR.
+
+  FIZEN QR PAY IS CURRENTLY OFFERED FOR CROSS-BORDER USE ONLY. YOU MUST NOT USE QR PAY TO PAY A MERCHANT IN YOUR HOME JURISDICTION UNLESS FIZEN EXPRESSLY PERMITS THAT USE IN THE APP AND IT IS LAWFUL TO DO SO.
+
+  TRANSFERS OF DIGITAL ASSETS ON A BLOCKCHAIN ARE GENERALLY IRREVERSIBLE ONCE CONFIRMED. A TRANSFER TO AN INCORRECT ADDRESS, THROUGH AN UNSUPPORTED NETWORK, OR USING AN UNSUPPORTED TOKEN MAY BE PERMANENTLY LOST.
+
+  A MERCHANT PAYMENT IS SEPARATE FROM THE FUNDING TRANSFER: YOUR QR PAY BALANCE IS RESERVED WHEN YOU CONFIRM A PAYMENT AND IS REDUCED ONLY WHEN THE PAYMENT SETTLES.
+
+  BY ACCESSING OR USING FIZEN QR PAY, YOU CONFIRM THAT YOU HAVE READ, UNDERSTOOD AND AGREED TO THESE QR PAY TERMS AND THE MASTER TERMS. IF YOU DO NOT AGREE, DO NOT USE FIZEN QR PAY.
 </Warning>
-
-By using Fizen QR Pay, you confirm that you have read, understood and agreed to these Fizen QR Pay Terms (the "QR Pay Terms"). The QR Pay Terms supplement, and form part of, the Fizen Master Terms of Use.
 
 ## 1. Definitions
 
-- **Database Balance** — your individual entitlement to USDT held in the QR Pay Smart Contract, as tracked by Fizen's internal accounting system.
-- **Home Jurisdiction** — the jurisdiction in which you are habitually resident, as determined by Fizen on the basis of your KYC information and supplementary data.
-- **Local Payment Partner** — the licensed local institution that handles the fiat settlement leg of QR Pay in a particular market, as identified in the Fizen app for each market in which the Service is available.
-- **Merchant** — a business that has registered for, and been approved to accept payments through, Fizen QR Pay or a partner QR scheme that interoperates with Fizen QR Pay.
-- **Merchant Jurisdiction** — the jurisdiction in which the Merchant is established and accepts payments.
-- **Payment** — a payment initiated by you using Fizen QR Pay to a Merchant.
-- **QR Pay Account** — the pooled, on-chain QR Pay Smart Contract balance to which you have a Database Balance entitlement.
-- **QR Pay Smart Contract** — the on-chain smart contract, controlled by Fizen, into which Cardholder USDT deposits for the QR Pay service are received and pooled.
+In these QR Pay Terms:
 
-## 2. Eligibility and Cross-Border Restriction
+- **Accepted Funding Transfer** means a Funding Transfer that has received the required Blockchain confirmations, passed Fizen’s applicable compliance and risk checks, and been accepted and credited by Fizen.
+- **Available QR Pay Balance** means the portion of your QR Pay Balance that is not reserved, restricted, subject to a hold, or otherwise unavailable for Payments or Withdrawal.
+- **Conversion Rate** means the exchange rate used to calculate the amount of QR Pay Balance required for a Payment, refund or other transaction, including any disclosed spread or conversion charge.
+- **Funding Asset** means a Digital Asset that Fizen accepts from time to time to fund QR Pay. As at the effective date of these QR Pay Terms, the Funding Asset is USDT on the network or networks shown in the app.
+- **Funding Transfer** means a transfer of a Funding Asset by you to a Blockchain address or smart contract designated by Fizen for funding QR Pay.
+- **Home Jurisdiction** means the jurisdiction in which you are habitually resident, as reasonably determined by Fizen using your KYC information and other relevant information available to Fizen.
+- **Local Payment Partner** means the bank, payment institution, payment intermediary or other provider that supports conversion, payment processing or local fiat settlement for QR Pay in a particular market. The relevant Local Payment Partner may be identified in the app, transaction flow or applicable regional information.
+- **Merchant** means a person or business that can receive a Payment through a supported local or interoperable QR payment scheme. A Merchant does not need to have a direct contractual relationship with Fizen.
+- **Merchant Jurisdiction** means the jurisdiction in which the Merchant receives the Payment.
+- **Payment** means a transaction initiated by you through QR Pay to pay a Merchant.
+- **QR Pay** means the QR-based payment service made available by Fizen through the Fizen Platform.
+- **QR Pay Balance** means the amount displayed in the app as available or attributable to you for QR Pay. Legally, it represents Fizen’s unsecured contractual obligation to apply the relevant amount toward eligible Payments or, where available, satisfy it through Withdrawal. It does not represent assets held for you.
+- **QR Pay Unit** means the unit in which your QR Pay Balance is denominated and displayed. At the effective date of these QR Pay Terms, the QR Pay Unit is USDT.
+- **Reserved Balance** means the portion of your QR Pay Balance temporarily set aside after you confirm a Payment and before that Payment settles, fails, expires or is cancelled.
+- **Settlement** or **Settled** means confirmation through the relevant Local Payment Partner or payment scheme that the Merchant payment has been successfully and finally processed, subject to any later refund, reversal or correction permitted by Applicable Law or scheme rules.
+- **Withdrawal** means Fizen’s satisfaction of all or part of its QR Pay Balance obligation by transferring the corresponding Funding Asset to a supported Blockchain address in accordance with these QR Pay Terms.
+
+## 2. Eligibility and availability
 
 ### 2.1 General eligibility
 
-To use Fizen QR Pay you must satisfy all eligibility requirements in the Fizen Master Terms of Use, have completed KYC at the level required for QR Pay, and be within the Payment limits applicable to you, as displayed in the Fizen app.
+To use QR Pay, you must at all times:
 
-### 2.2 Cross-border-only restriction
+- satisfy the eligibility requirements in the Master Terms;
+- maintain an active Fizen account in good standing;
+- complete the identity verification and other due diligence required by Fizen or a Local Payment Partner;
+- use QR Pay only for yourself and not on behalf of an undisclosed third party;
+- be located in, and make Payments only in, jurisdictions supported in the app;
+- remain within the transaction, daily, monthly and other limits displayed in the app; and
+- comply with these QR Pay Terms, the Master Terms and Applicable Law.
 
-<Info>
-  Fizen QR Pay is offered as a cross-border payment tool only. You may NOT use Fizen QR Pay at a Merchant in your Home Jurisdiction.
-</Info>
+Access to QR Pay is not guaranteed merely because the feature appears in the app. Fizen or a Local Payment Partner may determine eligibility on an ongoing basis using identity, location, device, transaction and risk information.
 
-In practice this means:
+### 2.2 Cross-border restriction
 
-- If your Home Jurisdiction is Vietnam, you may use Fizen QR Pay at Merchants in the Philippines, but not at Merchants in Vietnam.
-- If your Home Jurisdiction is the Philippines, you may use Fizen QR Pay at Merchants in Vietnam, but not at Merchants in the Philippines.
-- If Fizen extends QR Pay to additional markets, the same logic applies — QR Pay is available for use at Merchants in markets other than your Home Jurisdiction.
+Unless Fizen expressly states otherwise in the app, QR Pay is available only for cross-border use. You must not use QR Pay at a Merchant in your Home Jurisdiction.
 
-Fizen enforces this restriction at the application level. Attempts to circumvent it (including by using a VPN, by providing false KYC information, by maintaining multiple Fizen accounts, or by using a Fizen account from a jurisdiction other than your Home Jurisdiction without notifying Fizen of a change of residence) are a material breach of these QR Pay Terms and the Fizen Master Terms of Use and may result in suspension or termination of your Fizen account, forfeiture of your QR Pay balance to the extent permitted by Applicable Law, and reporting to competent authorities.
+For example:
 
-### 2.3 Why the restriction exists
+- a user whose Home Jurisdiction is Vietnam must not use QR Pay at a Merchant in Vietnam; and
+- a user whose Home Jurisdiction is the Philippines must not use QR Pay at a Merchant in the Philippines.
 
-Fizen has structured the QR Pay service in this way to align with the position of the State Bank of Vietnam (SBV) and the Bangko Sentral ng Pilipinas (BSP) and analogous authorities, which restrict or prohibit the use of cryptocurrency as a means of payment between residents of those jurisdictions. By limiting QR Pay to cross-border use, the Merchant receives only local fiat (the conversion is performed by the Local Payment Partner under its licence) and the payer is, in substance, a non-resident user paying in a foreign payment instrument. This is a regulatory and commercial decision Fizen has made; it does not constitute, and you should not rely on it as, legal or tax advice in respect of your own position under Applicable Law in any jurisdiction.
+If QR Pay becomes available in additional markets, the same restriction applies unless the app or applicable regional terms state otherwise.
 
-## 3. The Custodial Nature of the QR Pay Balance
+You must keep your residence information accurate and promptly notify Fizen of any change. You must not evade a geographic restriction by using false information, another person’s account, multiple accounts, a VPN, proxy, location-spoofing tool or any other method.
 
-<Info>
-  This clause describes how your QR Pay balance is actually held and the consequences of that arrangement for you. It is important. Please read it in full before depositing any USDT to QR Pay.
-</Info>
+Fizen may decline a Payment, restrict QR Pay, request additional information, suspend your account or take any other action permitted under these QR Pay Terms, the Master Terms or Applicable Law if Fizen reasonably believes that you have breached or attempted to circumvent this restriction.
 
-### 3.1 Pooled custody by Fizen
+### 2.3 Service markets and partners
 
-When you deposit USDT to fund your QR Pay Account, the USDT moves from your own Wallet to the QR Pay Smart Contract, which is controlled by Fizen. Once that on-chain transfer is confirmed, you no longer have direct cryptographic control over the USDT. Fizen controls the QR Pay Smart Contract, can move USDT in and out of it, and uses pooled USDT to prefund the Local Payment Partner so that the partner can settle your Payments.
+Supported jurisdictions, QR schemes, currencies, Local Payment Partners, limits and features may change. Current information will be displayed in the app or published by Fizen. The availability of QR Pay in a market does not constitute legal, tax or regulatory advice about your use of the service.
 
-### 3.2 Your Database Balance is your claim against Fizen
+## 3. Funding QR Pay: sale of Digital Assets to Fizen
 
-Your individual entitlement to USDT in the QR Pay Smart Contract is recorded in Fizen's internal accounting database (your Database Balance). Your relationship with Fizen in respect of the QR Pay balance is the relationship of a creditor to a debtor.
+### 3.1 Funding instructions
 
-### 3.3 No deposit insurance, no statutory protection
+You may fund QR Pay only by sending a supported Funding Asset over a supported Blockchain network to the address or smart contract shown in the app. You are responsible for checking the token, network, destination address and amount before confirming a Funding Transfer.
 
-Your QR Pay balance is not a bank deposit. It is not an e-money balance issued by a regulated e-money institution. It is not insured by any governmental deposit-protection scheme. It is not a Major Payment Institution stored-value facility under the Singapore Payment Services Act, an e-wallet under Vietnam's Decree 52/2024 or any analogous protected product.
+Do not send an unsupported token, use an unsupported network, or send to an expired or unauthorised address. Fizen is not required to recover an incorrectly sent asset. If recovery is technically and legally possible, Fizen may require additional verification and deduct the Blockchain fees, third-party costs and reasonable administrative costs of attempting recovery. Recovery is not guaranteed.
 
-### 3.4 Reserves
+### 3.2 Offer and acceptance
 
-Fizen aims to maintain USDT in the QR Pay Smart Contract plus prefund positions with Local Payment Partners that, in aggregate, are sufficient to honour all Database Balances. Fizen reserves the right to manage the allocation of USDT in the ordinary course of operating the QR Pay program. Fizen does not, as at the date of these QR Pay Terms, publish a periodic proof-of-reserves attestation.
+By initiating a Funding Transfer, you offer to sell and transfer the Funding Asset to Fizen in exchange for Fizen incurring the QR Pay Balance obligation described in these QR Pay Terms.
 
-### 3.5 Fizen-counterparty risk
+A Funding Transfer does not become an Accepted Funding Transfer merely because it appears on a Blockchain. Fizen accepts the Funding Transfer only after it:
 
-Because your QR Pay balance is a personal claim against Fizen, you are exposed to Fizen as your counterparty. If Fizen becomes insolvent, has the keys to the QR Pay Smart Contract compromised, is subject to a smart-contract exploit, or is otherwise unable to honour its obligations, you may lose some or all of your QR Pay balance.
+- receives the required Blockchain confirmations;
+- passes applicable KYC, KYT, AML, sanctions, fraud and other risk checks;
+- is reconciled with Fizen’s records; and
+- is credited to your QR Pay Balance in the app.
 
-### 3.6 Withdrawal
+Fizen may reject, delay or hold a Funding Transfer where permitted or required by Applicable Law or reasonably necessary for compliance, fraud prevention, security or operational review.
 
-You may request withdrawal of all or part of your Database Balance at any time through the Fizen app. Withdrawals are normally processed within twenty-four (24) hours, subject to AML/sanctions clearance, verification of the destination address, availability of USDT, holds, and limits.
+### 3.3 Transfer of ownership
 
-## 4. How a Payment Works
+When a Funding Transfer becomes an Accepted Funding Transfer:
 
-When you make a Payment through Fizen QR Pay:
+- all legal and beneficial title to the accepted Funding Asset transfers absolutely to Fizen;
+- you cease to have any ownership, custodial, trust, security or proprietary interest in that Funding Asset;
+- Fizen becomes free to pool, hold, transfer, sell, convert, use or otherwise deal with the Funding Asset for its own account, subject to Applicable Law; and
+- Fizen incurs an unsecured contractual obligation to you equal to the amount credited to your QR Pay Balance, after any fees disclosed before or at the time of funding.
 
-- you scan the Merchant's QR Code with the Fizen app (or you enter the Merchant ID and amount manually);
-- the Fizen app displays the Payment details: the Merchant name, the local fiat amount, the amount of USDT to be debited, the Conversion Rate, fees, and the validity period of the quote;
-- you review and confirm. Confirmation is your authorisation for Fizen to debit your Database Balance and instruct the Local Payment Partner to settle the Merchant;
-- the Local Payment Partner debits USDT from Fizen's prefund position, converts to local fiat at the Conversion Rate, and credits the Merchant's bank account through the relevant national QR scheme (VietQR in Vietnam, QRPh in the Philippines, or such other scheme as supported); and
-- Fizen debits your Database Balance by the USDT amount at the moment of confirmation.
+The Funding Asset is fungible. Fizen is not required to retain, trace or return the same tokens that you transferred.
 
-### 4.1 Quote validity
+### 3.4 Your representations concerning Funding Assets
 
-The Conversion Rate displayed at quote time is valid for a short period (typically a few seconds). The Conversion Rate becomes final once you confirm the Payment.
+Each time you make a Funding Transfer, you represent and warrant that:
 
-### 4.2 Failed or unsettled Payments
+- you own and are entitled to transfer the Funding Asset free from any lien, claim or encumbrance;
+- the Funding Asset is not derived from, connected with or intended for unlawful activity;
+- the transfer does not breach Applicable Law, sanctions, a court order or any third-party right;
+- you are acting for your own benefit and not for an undisclosed person; and
+- information you provide concerning the source of assets or transaction purpose is complete and accurate.
 
-If a Payment is initiated but the Merchant is not settled, Fizen will reverse the Payment and re-credit your Database Balance by the same USDT amount. If reversal is not technically possible because the Payment has been settled in fiat to the Merchant, Fizen will assist you in seeking a refund but cannot guarantee recovery.
+### 3.5 Tax treatment
 
-## 5. Merchants and Goods or Services
+A Funding Transfer is treated under these QR Pay Terms as a sale or disposal of a Digital Asset. It may create tax, reporting or accounting consequences for you. Fizen does not provide tax advice. You are responsible for determining and satisfying your own obligations.
 
-Fizen QR Pay is a payment service only. Fizen is not a party to your underlying purchase contract with the Merchant. Fizen does not provide, warrant or guarantee the quality, fitness, safety, legality, authenticity or fitness-for-purpose of any goods or services purchased through Fizen QR Pay. Disputes about goods or services must be resolved directly between you and the Merchant.
+## 4. Nature of the QR Pay Balance
 
-## 6. Refunds
+### 4.1 Contractual obligation, not custody
 
-Where a Merchant agrees to refund a Payment, the refund is processed by the Local Payment Partner through the relevant national QR scheme and is credited to your QR Pay Database Balance in USDT, calculated from the refunded local fiat amount at the Conversion Rate prevailing at the time of refund. You bear the risk of exchange-rate movement between Payment and refund. Fizen cannot compel a Merchant to issue a refund.
+Your QR Pay Balance is a record of Fizen’s unsecured contractual obligation to you. It is maintained through Fizen’s internal ledger and displayed in the app for convenience.
 
-## 7. Risk Disclosures
+Your QR Pay Balance is not:
 
-- **Custody and counterparty risk** — Your QR Pay balance is a claim against Fizen.
-- **Stablecoin risk** — USDT is issued by Tether. If USDT loses some or all of its peg to USD, the value of your QR Pay balance and the amount that converts to local fiat may be materially impaired.
-- **Smart-contract risk** — The QR Pay Smart Contract may contain bugs or vulnerabilities.
-- **Local Payment Partner risk** — The QR Pay service depends on the continued participation and licensing of the Local Payment Partner.
-- **Exchange-rate risk** — The Conversion Rate is volatile.
-- **Finality risk** — Payments are irreversible once settled to the Merchant; refunds depend on Merchant cooperation.
-- **Regulatory risk** — The legal characterisation of crypto-funded merchant payments is uncertain and changing.
-- **Geographic-restriction enforcement risk** — Circumvention attempts will be acted upon and may result in loss of your QR Pay balance, account suspension and reporting.
-- **Phishing and QR-tampering risk** — Always verify the Merchant name and amount before confirming a Payment.
+- a bank account or bank deposit;
+- electronic money, stored fiat value or a payment account represented by Fizen as being issued under a regulatory licence;
+- a custodial wallet or an account holding Digital Assets for you;
+- a trust, escrow, bailment or fiduciary arrangement;
+- an ownership interest in any wallet, smart contract, bank account, Local Payment Partner account or prefunded amount; or
+- insured or protected by a deposit-protection, investor-compensation or similar governmental scheme.
 
-## 8. Compliance, AML and Sanctions
+### 4.2 No segregation or asset-specific claim
 
-Because Fizen pools and custodies USDT in the QR Pay Smart Contract, Fizen has the technical and operational ability to (and where required by Applicable Law must) freeze, block or refuse to process Deposits, Withdrawals or Payments in response to AML, sanctions, fraud or court orders.
+Fizen is not required under these QR Pay Terms to segregate assets equal to your QR Pay Balance or maintain a one-to-one pool of Funding Assets for your benefit. You have no right to direct how Fizen holds or uses its assets and no claim to any particular Funding Asset or property of Fizen.
 
-## 9. Acceptable Use
+### 4.3 Unsecured creditor status
 
-You must not use Fizen QR Pay to: (a) pay for goods or services prohibited under Applicable Law; (b) structure Payments to avoid AML/sanctions/tax reporting thresholds; (c) pay sanctioned counterparties; (d) circumvent the cross-border restriction in clause 2.2; (e) circumvent Payment limits; or (f) use QR Pay for transactions that are not, in substance, payments for goods or services.
+To the extent Fizen owes you an outstanding QR Pay Balance, you are a general unsecured creditor of Fizen. If Fizen becomes insolvent, your ability to recover may be subject to insolvency law, creditor priorities and the assets available to Fizen. You may recover less than the full amount or nothing.
 
-## 10. Region-Specific Information
+### 4.4 Denomination
 
-### 10.1 Vietnam
+At the effective date of these QR Pay Terms, the QR Pay Balance is denominated in USDT. A balance of 1 USDT represents an obligation denominated in one unit of USDT; it is not a promise that USDT will always equal one US dollar or any amount of fiat currency.
 
-In Vietnam, payment intermediation is regulated by the State Bank of Vietnam (SBV) under Decree 52/2024/ND-CP. Crypto-to-fiat merchant payments interact with the Vietnamese national QR scheme (VietQR) and require the involvement of a licensed Local Payment Partner. Fizen is not the licensed payment intermediary in Vietnam; the fiat settlement leg is operated by a Local Payment Partner that is a licensed institution under the SBV regime. Use of cryptocurrency as a means of payment between residents of Vietnam is restricted under Vietnamese law; Fizen QR Pay is structured so that the Merchant receives only fiat (VND) and not the underlying Digital Asset. Users habitually resident in Vietnam may not use QR Pay at Vietnamese Merchants (clause 2.2).
+Fizen may introduce another QR Pay Unit or Funding Asset in the future. Unless you expressly agree otherwise or Applicable Law requires a different treatment:
 
-### 10.2 Philippines
+- a change applies prospectively to new funding or transactions; and
+- an existing QR Pay Balance remains denominated in the QR Pay Unit in which it was credited.
 
-In the Philippines, virtual asset service providers are regulated by the Bangko Sentral ng Pilipinas (BSP) under BSP Circular No. 1108. The fiat settlement leg in the Philippines is operated by a Local Payment Partner. Fizen Limited is not itself a licensed payment institution or VASP in the Philippines. Users habitually resident in the Philippines may not use QR Pay at Philippine Merchants (clause 2.2).
+Before any mandatory migration or conversion of an existing balance, Fizen will provide the notice and disclosures required by Applicable Law, including the applicable conversion method, effective date and available options.
 
-### 10.3 Other jurisdictions
+### 4.5 Ledger accuracy and corrections
 
-If Fizen extends QR Pay to additional jurisdictions, the relevant region annex will identify the Local Payment Partner, the supported QR scheme and any additional restrictions, and the cross-border-only restriction in clause 2.2 will apply mutatis mutandis.
+Fizen’s ledger and transaction records are evidence of your QR Pay Balance and activity, but Fizen may correct duplicate credits, manifest errors, system errors, unauthorised credits, refunds processed twice or other inaccurate entries. Fizen will provide notice where reasonably practicable and may request repayment if a correction results in a negative amount or shows that you received more value than you were entitled to receive.
 
-## 11. Disclaimers and Limitation of Liability
+## 5. Fizen prefunding and Local Payment Partners
 
-<Warning>
-  TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, FIZEN QR PAY IS PROVIDED "AS IS" AND "AS AVAILABLE". FIZEN DISCLAIMS ALL WARRANTIES, EXPRESS, IMPLIED OR STATUTORY, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AVAILABILITY, ACCURACY OF RATES AND NON-INFRINGEMENT.
-</Warning>
+### 5.1 Fizen acts as principal for funding
 
-Fizen is not liable for any loss arising from (a) the act, omission, performance, non-performance or insolvency of any Merchant, the Local Payment Partner, the Conversion Service Provider or any other third party; (b) the quality, legality, fitness or non-delivery of any goods or services purchased; (c) exchange-rate movement; (d) failure, delay, suspension or termination of any national QR scheme; (e) tax liability; or (f) circumvention attempts of the cross-border restriction by any user.
+For an Accepted Funding Transfer, Fizen acts as principal purchaser of the Funding Asset and becomes the obligor in respect of the resulting QR Pay Balance. Fizen does not accept the Funding Asset as your custodian, trustee or agent.
 
-Fizen's aggregate liability to you in respect of QR Pay shall not exceed the greater of (i) the total fees you paid Fizen in respect of QR Pay in the twelve months preceding the event and (ii) USD 500.
+### 5.2 Prefunding
 
-## 12. Miscellaneous
+Fizen may use its own assets to prefund accounts or positions maintained with Local Payment Partners. Those prefunded amounts belong to Fizen and are not assets held for you. A Local Payment Partner does not owe you a repayment or custodial obligation merely because it supports a Payment initiated through QR Pay.
 
-Save as expressly varied by these QR Pay Terms, the provisions of the Fizen Master Terms of Use apply to your use of QR Pay.
+### 5.3 Partner role
+
+Local Payment Partners perform the local conversion, processing and fiat settlement activities allocated to them. They may apply their own compliance controls, operating rules, limits and service conditions. Where separate partner terms are presented to you, you must accept them before using the relevant service.
+
+Fizen may appoint, replace or cease using a Local Payment Partner. This may affect supported markets, QR schemes, limits, processing times or service availability.
+
+## 6. Making a Payment
+
+### 6.1 Payment flow
+
+To make a Payment, you may scan a supported Merchant QR code or use another payment initiation method made available in the app. Before you confirm, the app will display the material transaction details available to Fizen, which may include:
+
+- Merchant name;
+- local fiat amount and currency;
+- amount of QR Pay Balance to be used;
+- Conversion Rate;
+- applicable fees;
+- total amount to be reserved; and
+- quote expiry time.
+
+You must review the Merchant, amount, currency and all other details carefully. You must not confirm the Payment if any information is incorrect or if you do not recognise the Merchant.
+
+### 6.2 Authorisation and reservation
+
+When you confirm a Payment, you:
+
+- authorise Fizen to reserve the displayed amount from your Available QR Pay Balance;
+- instruct Fizen to request the relevant Local Payment Partner to process and settle the Payment; and
+- confirm that you intend to pay the identified Merchant for the relevant goods or services.
+
+Confirmation does not itself settle the Payment or extinguish Fizen’s obligation. The relevant amount becomes Reserved Balance while processing is pending and cannot be used for another Payment or Withdrawal.
+
+### 6.3 Settlement and discharge
+
+When Fizen receives confirmation that the Payment has Settled:
+
+- the corresponding Reserved Balance is deducted from your QR Pay Balance; and
+- Fizen’s contractual obligation to you is discharged and extinguished to the same extent.
+
+The Merchant receives local fiat through the Local Payment Partner or supported QR scheme. The Merchant does not receive your original Funding Asset from you.
+
+### 6.4 Failed, expired or unsettled Payments
+
+If a Payment fails, expires, is cancelled before Settlement, or is confirmed not to have Settled, Fizen will release the corresponding Reserved Balance back to your Available QR Pay Balance after receiving and reconciling the relevant status information.
+
+The release may not be immediate because Fizen may need confirmation from the Local Payment Partner or payment scheme. Fizen will not extinguish the relevant portion of its obligation merely because you attempted or confirmed a Payment that did not Settle.
+
+If only part of a reserved amount Settles, Fizen will deduct the Settled amount and release the remainder. Fizen will not increase the amount of a Payment above the amount you authorised without obtaining any further authorisation required by Applicable Law.
+
+### 6.5 Quote validity and exchange rates
+
+A quote is valid only for the period displayed in the app. If the quote expires before confirmation or processing, Fizen may require a new quote. The Conversion Rate becomes binding for the Payment when you confirm a valid quote, subject to correction of a manifest error and any different treatment required by Applicable Law or payment-scheme rules.
+
+### 6.6 Payment limits and refusal
+
+Fizen or a Local Payment Partner may impose transaction, daily, monthly, Merchant-category, jurisdictional or risk-based limits. A Payment may be declined, delayed or held for reasons including insufficient Available QR Pay Balance, expired quote, unsupported QR code, partner unavailability, compliance review, suspected fraud, technical failure or a restriction imposed by the relevant payment scheme.
+
+Neither the appearance of a Merchant QR code nor the display of a quote guarantees that a Payment will be accepted or Settled.
+
+### 6.7 Payment status and receipts
+
+The status displayed in the app may be pending while Settlement confirmation is being obtained. You should not make the same Payment again solely because the Merchant has not immediately received confirmation. Contact Fizen Support if the status remains pending or the Merchant claims not to have received a Settled Payment.
+
+Electronic transaction records and receipts will be available through the app where supported. They do not constitute an invoice or receipt for the underlying goods or services unless Applicable Law provides otherwise.
+
+## 7. Withdrawals
+
+### 7.1 Availability
+
+Where the Withdrawal feature is available, you may request that Fizen satisfy all or part of your Available QR Pay Balance by sending the corresponding amount of the applicable Funding Asset, currently USDT, to a supported Blockchain address.
+
+A Withdrawal is a discharge of Fizen’s contractual obligation. It is not the return of Digital Assets held in custody for you and need not use the same tokens or wallet from which you funded QR Pay.
+
+### 7.2 Withdrawal instructions
+
+You are responsible for providing a correct, compatible and lawful destination address and selecting the correct network. Fizen may require that the destination address is controlled by you or otherwise acceptable under Fizen’s compliance policies.
+
+Blockchain transfers are generally irreversible. Fizen is not responsible for loss caused by an incorrect address, incompatible network, unsupported wallet or incorrect information supplied by you, except to the extent caused by Fizen’s own failure to follow correctly submitted instructions.
+
+### 7.3 Processing
+
+Fizen may reserve the requested amount while a Withdrawal is being processed. Fizen’s obligation is discharged to the extent of the amount successfully transferred, excluding any fee clearly disclosed to and accepted by you. If the transfer fails and no corresponding asset has been sent, Fizen will restore the relevant amount after reconciliation.
+
+Any processing time shown in the app is an estimate, not a guarantee. A Withdrawal may be delayed or refused due to Blockchain congestion, technical issues, insufficient network confirmations, limits, security review, compliance checks, a legal requirement or circumstances beyond Fizen’s reasonable control.
+
+### 7.4 Fees and minimums
+
+Minimum Withdrawal amounts, network fees and any service fees will be disclosed in the app before you confirm. Network fees may change according to Blockchain conditions.
+
+## 8. Merchants, purchases and disputes
+
+### 8.1 Underlying purchase
+
+Your purchase of goods or services is a contract between you and the Merchant. Fizen and the Local Payment Partner are not the seller, supplier, manufacturer or service provider unless expressly stated otherwise.
+
+Fizen does not control and does not warrant the quality, safety, legality, authenticity, delivery, description, fitness or availability of goods or services supplied by a Merchant.
+
+### 8.2 Verify before paying
+
+QR codes can be replaced, tampered with or fraudulently presented. You must verify the Merchant name and Payment amount shown in the app before confirmation. Do not rely only on a printed QR code or information outside the Fizen confirmation screen.
+
+### 8.3 Merchant disputes
+
+Disputes about goods or services, including non-delivery, defects, cancellations or incorrect descriptions, must first be raised with the Merchant. QR Pay does not necessarily provide card-network chargeback rights. Fizen may assist by providing transaction information or communicating with a Local Payment Partner, but cannot compel a Merchant or partner to approve a refund unless Applicable Law requires otherwise.
+
+### 8.4 Suspected unauthorised activity
+
+You must protect your device, account credentials, authentication methods and Wallet. Notify Fizen Support immediately if you suspect that your account or device has been compromised or that a Payment was not authorised by you.
+
+Fizen may investigate and may request information or documents from you. Treatment of an allegedly unauthorised Payment is subject to the facts, security records, Applicable Law and relevant scheme rules. Nothing in these QR Pay Terms excludes a non-waivable consumer right.
+
+## 9. Refunds, reversals and corrections
+
+### 9.1 Merchant-approved refunds
+
+If a Merchant agrees to refund a Payment, the Merchant or Local Payment Partner must first process the refund through the applicable payment channel. Fizen is required to credit or pay you only after Fizen has actually received cleared and final refund value from the Local Payment Partner and completed the necessary reconciliation and compliance checks.
+
+### 9.2 Form and calculation of refund
+
+Unless the app or Applicable Law requires another method, Fizen will satisfy an approved refund by crediting your QR Pay Balance in the applicable QR Pay Unit. If your account has been closed or Fizen determines that a balance credit is not appropriate, Fizen may send the corresponding Funding Asset to a verified supported address or use another lawful method agreed with you.
+
+Where Fizen receives the refund in local fiat, the amount credited in USDT or another QR Pay Unit will be calculated using the Conversion Rate applicable when Fizen processes the refund, after deducting any fee or cost that was disclosed or is properly chargeable under Applicable Law. The refunded amount may therefore differ from the amount originally deducted because of exchange-rate movements, fees, partial refunds or partner adjustments.
+
+### 9.3 Timing
+
+Refund timing depends on the Merchant, Local Payment Partner, payment scheme, banking system and required checks. Any estimate is not a guarantee. Fizen will not be responsible for a delay before it receives cleared refund value, but will process the corresponding balance credit or payment within a reasonable period after receipt and reconciliation.
+
+### 9.4 Reversals and erroneous credits
+
+Fizen may reverse or correct a credit if the corresponding partner refund is reversed, recalled, duplicated, fraudulent or credited in error. If you have already spent or withdrawn an erroneous amount, you must repay it on request, and Fizen may offset it against an existing or future QR Pay Balance to the extent permitted by Applicable Law.
+
+## 10. Fees, rates and taxes
+
+### 10.1 Fees
+
+Fizen may charge funding, Payment, conversion, Withdrawal, Blockchain network, recovery or other fees. Applicable fees will be shown in the app, transaction confirmation screen or current fee schedule before you commit to the relevant transaction, except for a third-party fee that could not reasonably be known in advance.
+
+### 10.2 Conversion Rates
+
+Conversion Rates may include a spread and may differ from rates displayed by exchanges, data providers, banks or card networks. The app will display the amount you authorise before confirmation. Fizen does not guarantee any market, interbank or independently published rate.
+
+### 10.3 Taxes
+
+You are responsible for any tax, duty, levy, reporting or filing obligation arising from Funding Transfers, Payments, Withdrawals, refunds or use of QR Pay. Fizen may collect, withhold or report amounts or information where required by Applicable Law.
+
+## 11. Compliance, fraud prevention and legal holds
+
+Fizen and its partners may conduct KYC, KYT, AML, counter-terrorist-financing, sanctions, fraud, source-of-funds, source-of-wealth and other checks before or after any Funding Transfer, Payment, refund or Withdrawal.
+
+Where Fizen reasonably believes it is necessary to comply with Applicable Law, a binding request, a court order, partner requirements, or to prevent fraud or protect the service, Fizen may:
+
+- reject or delay acceptance of a Funding Transfer;
+- decline, delay, cancel or hold a Payment before Settlement;
+- restrict the use or discharge of some or all of a QR Pay Balance;
+- delay or refuse a Withdrawal or refund;
+- request additional information or documents;
+- correct, reverse or unwind a transaction where technically and legally possible;
+- suspend or terminate access to QR Pay or the Fizen account; and
+- disclose information to a Local Payment Partner, Blockchain analytics provider, regulator, financial intelligence unit, law-enforcement authority, court or other competent person.
+
+A restriction on use or discharge of a QR Pay Balance is not a freeze of Digital Assets held for you: the balance is Fizen’s contractual obligation and remains subject to these QR Pay Terms, Applicable Law and any binding restriction.
+
+Where lawfully permitted and operationally possible, Fizen will provide notice of a material restriction. Fizen may be prohibited from notifying you or explaining the reason.
+
+You must promptly provide complete and accurate information requested for a review. Fizen is not required to process a transaction while required information remains outstanding.
+
+## 12. Acceptable use
+
+In addition to the Acceptable Use requirements in the Master Terms, you must not use or attempt to use QR Pay:
+
+- for any unlawful, fraudulent, deceptive or abusive purpose;
+- to purchase prohibited or restricted goods or services;
+- to pay a sanctioned, blocked or restricted person;
+- to disguise the origin, destination, ownership or purpose of funds;
+- to structure transactions to evade limits, monitoring or reporting requirements;
+- to obtain cash, conduct money transmission, transfer value to another person or make a non-commercial transfer disguised as a Merchant payment, unless expressly supported by Fizen;
+- to circumvent the cross-border restriction, geographic controls or transaction limits;
+- on behalf of an undisclosed third party;
+- using proceeds of crime, stolen Digital Assets or assets subject to a claim; or
+- in a manner that interferes with, exploits, damages or places an unreasonable burden on Fizen, a Local Payment Partner, a Merchant or a supported QR scheme.
+
+Fizen may apply additional Merchant-category restrictions and risk controls. A breach may result in transaction refusal, account restriction, termination, reporting or any other action permitted by Applicable Law. Remaining QR Pay Balance obligations will be handled under clause 16 and will not be forfeited merely as a contractual penalty, except to the extent a binding law, order or final legal determination requires otherwise.
+
+## 13. Risk disclosures
+
+By using QR Pay, you acknowledge and accept the following risks:
+
+- **Fizen credit and insolvency risk.** Your QR Pay Balance is an unsecured claim against Fizen, not property held for you. Fizen may become unable to satisfy some or all of its obligations.
+- **No segregation or deposit protection.** Assets are not required under these QR Pay Terms to be segregated or covered by a deposit-protection or investor-compensation scheme.
+- **Stablecoin risk.** USDT or another Funding Asset may lose its intended peg, become illiquid, be frozen by its issuer, or lose some or all of its value. A USDT-denominated QR Pay Balance remains denominated in USDT and does not guarantee a fixed fiat value.
+- **Blockchain risk.** A Blockchain may experience congestion, forks, attacks, outages, software defects or changed fees. Confirmed transfers may be irreversible.
+- **Smart-contract and cybersecurity risk.** Wallets, smart contracts, systems, keys, accounts or service providers may be compromised or fail.
+- **Local Payment Partner and payment-scheme risk.** QR Pay depends on third parties that may delay, decline, reverse, suspend or cease supporting transactions or markets.
+- **Exchange-rate risk.** The fiat value of a Funding Asset and the applicable Conversion Rate can change between funding, Payment, refund and Withdrawal.
+- **Merchant risk.** The Merchant may fail to deliver, may provide defective goods or services, may refuse a refund or may be fraudulent.
+- **QR-code risk.** A QR code may be incorrect, replaced or manipulated. A Payment sent to the Merchant shown on the confirmation screen may be difficult or impossible to recover after Settlement.
+- **Regulatory risk.** Law, regulation, licensing expectations or enforcement practices may change, which may restrict, suspend or terminate QR Pay or affect your transactions.
+- **Operational and finality risk.** Status updates may be delayed or inconsistent across systems. Once a Payment has Settled, recovery generally depends on Merchant and partner processes.
+
+You should not maintain a QR Pay Balance greater than you reasonably expect to use, and you should assess whether these risks are appropriate for you.
+
+## 14. Regional information
+
+### 14.1 Vietnam
+
+Where QR Pay supports Payments to Merchants in Vietnam, the fiat settlement leg is performed through a Local Payment Partner and the supported local payment infrastructure. Fizen is not the local licensed payment intermediary for that fiat settlement leg. Unless Fizen expressly permits otherwise in the app, users whose Home Jurisdiction is Vietnam must not use QR Pay at Merchants in Vietnam.
+
+### 14.2 Philippines
+
+Where QR Pay supports Payments to Merchants in the Philippines, the fiat settlement leg is performed through a Local Payment Partner and the supported local payment infrastructure. Fizen is not the local licensed payment institution or virtual-asset service provider performing that fiat settlement leg. Unless Fizen expressly permits otherwise in the app, users whose Home Jurisdiction is the Philippines must not use QR Pay at Merchants in the Philippines.
+
+### 14.3 Other jurisdictions
+
+If QR Pay becomes available in additional jurisdictions, Fizen may publish an annex or in-app disclosure identifying the supported QR scheme, Local Payment Partner, currencies, restrictions and any additional terms. Unless expressly stated otherwise, the cross-border restriction in clause 2.2 continues to apply.
+
+## 15. Service changes and availability
+
+Fizen may add, remove or change a Funding Asset, Blockchain network, QR Pay Unit, Local Payment Partner, Merchant category, supported jurisdiction, QR scheme, limit, fee or feature where reasonably necessary for legal, security, operational or commercial reasons.
+
+Fizen will provide advance notice of a material adverse change where required by the Master Terms or Applicable Law. Immediate changes may be necessary where delay would create legal, security, fraud, partner or operational risk.
+
+Fizen does not guarantee uninterrupted availability or that a particular Merchant, partner, jurisdiction, Blockchain or payment scheme will remain supported.
+
+## 16. Suspension, termination and remaining QR Pay Balance
+
+### 16.1 Suspension or termination by Fizen
+
+Fizen may suspend, restrict or terminate your use of QR Pay in the circumstances set out in these QR Pay Terms or the Master Terms, including breach, suspected unlawful activity, security risk, partner unavailability, regulatory requirement or discontinuation of the service.
+
+### 16.2 Stopping use by you
+
+You may stop using QR Pay at any time. Before closing your Fizen account, you should complete or resolve pending Payments and request Withdrawal of your Available QR Pay Balance, where Withdrawal is available.
+
+### 16.3 Treatment of remaining balance
+
+Suspension, termination or service discontinuation does not by itself extinguish a valid remaining QR Pay Balance. Subject to pending Payments, fees, corrections, set-off rights, compliance checks and binding legal restrictions, Fizen will provide a reasonable method for discharging the remaining obligation, normally by Withdrawal in the applicable Funding Asset.
+
+Fizen may require identity verification, ownership evidence, source-of-funds information or a verified destination address before discharge. Fizen may delay performance for as long as required by Applicable Law, a binding order or a necessary compliance investigation.
+
+If a user cannot lawfully receive the applicable Funding Asset, Fizen may use another lawful method where available and agreed or required. Fizen will not treat a balance as forfeited solely because the account is suspended or closed, except where a binding law, court order or final determination requires otherwise.
+
+### 16.4 Survival
+
+Clauses concerning completed transactions, ownership of Funding Assets, outstanding obligations, corrections, fees, taxes, compliance, risks, disclaimers, liability, disputes and any provision that by its nature should survive will continue after suspension or termination.
+
+## 17. Disclaimers and limitation of liability
+
+### 17.1 Service disclaimer
+
+To the maximum extent permitted by Applicable Law, QR Pay is provided “as is” and “as available”. Fizen disclaims all warranties, express, implied or statutory, including warranties of merchantability, fitness for a particular purpose, availability, accuracy, title and non-infringement.
+
+Fizen does not warrant that QR Pay will be uninterrupted, error-free or available at every Merchant, or that a Funding Transfer, Payment, refund or Withdrawal will be completed within any particular period.
+
+### 17.2 Third parties and underlying purchases
+
+Subject to any non-waivable obligation, Fizen is not liable for loss arising from:
+
+- an act, omission, insolvency, outage or delay of a Merchant, Local Payment Partner, payment scheme, Blockchain, stablecoin issuer, wallet provider or other third party;
+- the quality, legality, safety, non-delivery or fitness of Merchant goods or services;
+- exchange-rate movement, a stablecoin depeg, token freeze or loss of liquidity;
+- an incorrect or manipulated QR code where the Merchant and amount were displayed to you before confirmation;
+- an incorrect wallet address, token or network selected by you;
+- a legal or regulatory restriction; or
+- circumstances beyond Fizen’s reasonable control.
+
+However, if a Payment does not Settle, this clause does not remove Fizen’s obligation under clause 6.4 to release the corresponding Reserved Balance after status confirmation and reconciliation.
+
+### 17.3 Liability cap
+
+Subject to the exclusions below and to the maximum extent permitted by Applicable Law, Fizen’s aggregate liability arising out of or relating to QR Pay will not exceed the greater of:
+
+- the total fees you paid directly to Fizen for QR Pay during the twelve months immediately preceding the event giving rise to the claim; and
+- USD 500 or its equivalent.
+
+### 17.4 Matters not subject to the cap
+
+Nothing in these QR Pay Terms excludes or limits:
+
+- Fizen’s obligation to account for and, subject to these QR Pay Terms, discharge a valid outstanding QR Pay Balance;
+- liability for fraud, fraudulent misrepresentation, gross negligence or wilful misconduct;
+- liability for death or personal injury caused by negligence; or
+- any right or liability that cannot lawfully be excluded or limited.
+
+For clarity, recognising an outstanding QR Pay Balance does not guarantee full recovery if Fizen is insolvent; insolvency and creditor-priority rules may affect recovery.
+
+## 18. Privacy and data sharing
+
+Fizen processes Personal Data as described in the [Fizen Privacy Policy](https://docs.fizen.io/privacy), which is incorporated by reference.
+
+To provide QR Pay, prevent fraud and comply with Applicable Law, Fizen may collect, use and disclose identity, account, device, location, Funding Transfer, wallet, Merchant, Payment, refund and Withdrawal information to Local Payment Partners, Blockchain analytics providers, compliance vendors, stablecoin issuers, payment schemes, regulators, law-enforcement authorities and other persons described in the Privacy Policy.
+
+## 19. Complaints and transaction enquiries
+
+If you believe a Payment, refund, Withdrawal or QR Pay Balance entry is incorrect, contact Fizen Support through the app as soon as possible and provide the transaction identifier, date, amount, Merchant or wallet details and supporting evidence.
+
+Fizen may refer the matter to a Local Payment Partner or Merchant and may request your reasonable cooperation. Time limits imposed by a payment scheme, partner or Applicable Law may affect available remedies, so delay may reduce the possibility of recovery.
+
+The informal resolution, arbitration, governing-law and other dispute provisions in the Master Terms apply to disputes relating to QR Pay.
+
+## 20. Changes to these QR Pay Terms
+
+Fizen may amend these QR Pay Terms in accordance with the change and notice provisions in the Master Terms. Where a change materially affects the legal nature, denomination or discharge of an existing QR Pay Balance, Fizen will provide the notice and options required by Applicable Law.
+
+Continued use of QR Pay after an amendment takes effect constitutes acceptance to the extent permitted by Applicable Law. If you do not agree, you must stop using QR Pay and request discharge of your Available QR Pay Balance before the change takes effect, subject to these QR Pay Terms.
+
+## 21. Miscellaneous
+
+Except as expressly varied by these QR Pay Terms, the Master Terms apply to QR Pay, including provisions on account security, intellectual property, acceptable use, notices, force majeure, indemnification, assignment, severability, governing law and dispute resolution.
+
+Nothing in these QR Pay Terms creates a partnership, joint venture, fiduciary, trustee, custodial, escrow or agency relationship between you and Fizen. Fizen acts as principal when it accepts a Funding Asset and incurs the corresponding QR Pay Balance obligation. A Local Payment Partner acts in the capacity described in its own terms and applicable arrangements.
+
+If a translated version of these QR Pay Terms is provided, the language-priority rule in the Master Terms applies, subject to mandatory local law.
+
+## 22. Contact
+
+- **General support and transaction enquiries:** in-app live chat
+- **Legal notices:** [legal@fizen.io](mailto:legal@fizen.io)
+- **Registered office:** Fizen Limited, Unit 1411, 14/F, Cosco Tower, 183 Queen’s Road Central, Sheung Wan, Hong Kong
