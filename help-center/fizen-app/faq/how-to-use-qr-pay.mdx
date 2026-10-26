@@ -1,19 +1,57 @@
 ---
 title: "How to Use QR Pay"
+description: "Pay local QR codes as a visitor in Vietnam and the Philippines: set up your Fizen wallet, move USDT on Solana or BNB Chain into your QR Pay account, then scan and pay."
 ---
 
 <Note>
-  QR Pay is currently available in **Vietnam** and **Philippines**. More regions coming soon.
-  Supports VietQR, Momo, and ZaloPay codes.
+  QR Pay is available in **Vietnam** and the **Philippines**, for travellers and foreigners. More regions coming soon.
+  It pays VietQR bank codes, VNPay, MoMo and ZaloPay codes in Vietnam, and QR Ph codes in the Philippines.
 </Note>
 
-## Deposit into QR Pay balance
+## How it works
+
+Your **Fizen wallet** is non-custodial: you hold the keys. To pay, you deposit the USDT you plan to spend from your wallet into **QR Pay**, then scan the shop's QR code and pay. The merchant receives local currency.
+
+<Steps>
+  <Step title="Create or import your Fizen wallet">
+    Download the Fizen app and create a new wallet, or import an existing one with your seed phrase. See [Set Up Wallet](/help-center/fizen-app/wallet-and-account/set-up-wallet).
+  </Step>
+  <Step title="Get USDT on Solana or BNB Chain into your wallet">
+    Tap **Receive**, choose **USDT** and the **Solana** or **BNB Chain** network, and send USDT to that address. If your USDT is on another network, move it with **Swap & Bridge** first.
+  </Step>
+  <Step title="Deposit from your wallet into QR Pay">
+    Open **QR Pay**, complete identity verification (KYC), then tap **Deposit**, enter the USDT amount and confirm.
+  </Step>
+  <Step title="Scan and pay">
+    Tap **Scan**, point the camera at the merchant's QR code, check the merchant name and the amount in local currency, then swipe to confirm.
+  </Step>
+</Steps>
+
+## Before you deposit
+
+<Warning>
+  **QR Pay is funded only with USDT on Solana or BNB Chain.**
+
+  - No bank account link, no card top-up, and no VND or PHP deposit.
+  - Not USDC, not BTC, and not USDT on Tron or Ethereum.
+  - USDT on another network, or another token, **cannot be deposited** into QR Pay.
+
+  If your USDT is on another network, use **Swap & Bridge** in the app to move it to Solana or BNB Chain first.
+</Warning>
+
+<Info>
+  QR Pay is for **cross-border use only**: you cannot use it to pay merchants in your home country, so residents of Vietnam and the Philippines cannot use it there. KYC applies per wallet and per device: each wallet completes KYC, and using QR Pay on a new device requires KYC again. Use of QR Pay is governed by the [Fizen QR Pay Terms](https://docs.fizen.io/fizen-qr-pay). The Fizen wallet is self-custody; USDT you deposit into QR Pay is governed by the QR Pay Terms, so only move in what you plan to spend.
+</Info>
+
+---
+
+## Deposit into QR Pay
 
 <Steps>
   <Step title="Open QR Pay">On the homepage, select **QR Pay**.</Step>
   <Step title="Tap Deposit">Select the **Deposit** option.</Step>
-  <Step title="Enter USDT amount">Input how much USDT you want to deposit.</Step>
-  <Step title="Agree to Terms and confirm">Accept Terms & Conditions, then swipe to confirm.</Step>
+  <Step title="Enter USDT amount">Enter how much USDT to move from your Fizen wallet, from USDT on **Solana** or **BNB Chain** only.</Step>
+  <Step title="Agree to Terms and confirm">Accept the Terms & Conditions, then swipe to confirm.</Step>
 </Steps>
 
 ---
@@ -21,17 +59,62 @@ title: "How to Use QR Pay"
 ## Pay a merchant via QR
 
 <Steps>
-  <Step title="Tap Scan in QR Pay">Open QR Pay → tap **Scan**.</Step>
-  <Step title="Scan merchant QR code">Point camera at the merchant's QR code.</Step>
-  <Step title="Enter amount and confirm">Input the payment amount and swipe to confirm.</Step>
+  <Step title="Tap Scan in QR Pay">Open QR Pay and tap **Scan**.</Step>
+  <Step title="Scan the merchant QR code">Point the camera at the merchant's QR code.</Step>
+  <Step title="Check, enter the amount and confirm">Check the merchant name, enter the amount if the code does not include it, check the amount in local currency, then swipe to confirm.</Step>
 </Steps>
+
+<Tip>
+  Keep the payment message plain: letters, numbers and spaces only. Many banks reject a transfer whose message contains special characters such as a hyphen, slash, dot or equals sign. The in-app keyboard has none of these.
+</Tip>
 
 ---
 
 ## Transfer between QR Pay accounts
 
 <Steps>
-  <Step title="Tap Transfer">Open QR Pay → select **Transfer**.</Step>
-  <Step title="Enter recipient">Input the recipient's phone number or QR Pay ID.</Step>
-  <Step title="Enter amount and confirm">Specify amount and swipe to confirm.</Step>
+  <Step title="Tap Transfer">Open QR Pay and select **Transfer**.</Step>
+  <Step title="Enter recipient">Enter the recipient's phone number or QR Pay ID.</Step>
+  <Step title="Enter amount and confirm">Enter the amount and swipe to confirm.</Step>
 </Steps>
+
+---
+
+## Limits
+
+- Up to **US$800** per payment.
+- Up to **US$1,000** per week per user.
+- No daily limit.
+- In **Vietnam**, QR Pay pays QR codes of Vietnamese account holders. Codes linked to an account held by a foreigner will not go through.
+
+## Why a payment can fail
+
+- **The receiving bank is under maintenance or having a problem.** If the payment shows as failed, try again later or contact support.
+- **The payment is still processing.** Do not pay again. Wait for the final status so you do not pay twice.
+- **In Vietnam, the account belongs to a foreigner.** Ask the merchant for a code linked to a Vietnamese account.
+- **The QR code is old or expired.** Ask the merchant for a new one.
+- **The payment message has special characters.** Ask the merchant for a plain code.
+- **The amount is over your limit.**
+
+## FAQ
+
+<AccordionGroup>
+  <Accordion title="Do I need KYC on every device?">
+    Yes. KYC applies per wallet and per device: each wallet completes KYC, and using QR Pay on a new device requires KYC again.
+  </Accordion>
+  <Accordion title="How does QR Pay relate to my Fizen wallet?">
+    Your Fizen wallet is non-custodial and you hold the keys. You deposit from it into QR Pay the USDT you plan to spend; what you deposit is governed by the QR Pay Terms.
+  </Accordion>
+  <Accordion title="Can I link a bank account or card to QR Pay?">
+    No. QR Pay is funded only with USDT on Solana or BNB Chain from your Fizen wallet.
+  </Accordion>
+  <Accordion title="What happens if I send USDT on the wrong network?">
+    USDT on another network, or another token, cannot be deposited into QR Pay. Move it to Solana or BNB Chain with Swap & Bridge first.
+  </Accordion>
+  <Accordion title="Can residents of Vietnam or the Philippines use QR Pay at home?">
+    No. QR Pay is for cross-border use only, for visitors and foreigners.
+  </Accordion>
+  <Accordion title="Are there fees?">
+    Any fee is shown in the app before you confirm.
+  </Accordion>
+</AccordionGroup>
