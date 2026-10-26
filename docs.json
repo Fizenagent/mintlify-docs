@@ -34,8 +34,8 @@
   "navbar": {
     "links": [
       {
-        "label": "Get Fizen Card",
-        "href": "https://card.fizen.io/create?utm_source=docs_mintlify&utm_medium=docs"
+        "label": "Get Fizen eSIM",
+        "href": "https://fizen.io/esim?utm_source=docs_mintlify&utm_medium=docs"
       }
     ],
     "primary": {
