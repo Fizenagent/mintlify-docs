@@ -94,9 +94,11 @@
                 "group": "Products",
                 "pages": [
                   "general-introduction-to-fizen/products/fizen-app",
-                  "general-introduction-to-fizen/products/fizen-pay",
+                  "general-introduction-to-fizen/products/fizen-qr-pay",
                   "general-introduction-to-fizen/products/fizen-card",
-                  "general-introduction-to-fizen/products/fizen-esim"
+                  "general-introduction-to-fizen/products/fizen-esim",
+                  "general-introduction-to-fizen/products/fizen-us-stocks",
+                  "general-introduction-to-fizen/products/fizen-pay"
                 ]
               },
               {
@@ -194,7 +196,6 @@
                     "pages": [
                       "help-center/fizen-app/faq/faq",
                       "help-center/fizen-app/faq/how-to-use-fizen-wallet",
-                      "help-center/fizen-app/faq/how-to-use-qr-pay",
                       "help-center/fizen-app/faq/how-to-add-a-token",
                       "help-center/fizen-app/faq/how-to-book-a-hotel",
                       "help-center/fizen-app/faq/purchase-and-activate-an-esim",
@@ -206,6 +207,85 @@
                       "help-center/fizen-app/faq/book-a-flight"
                     ]
                   }
+                ]
+              },
+              {
+                "group": "Fizen QR Pay",
+                "pages": [
+                  "help-center/fizen-qr-pay/fizen-qr-pay",
+                  "help-center/fizen-qr-pay/getting-started",
+                  "help-center/fizen-qr-pay/deposit",
+                  "help-center/fizen-qr-pay/scan-and-pay",
+                  "help-center/fizen-qr-pay/transfer",
+                  "help-center/fizen-qr-pay/kyc",
+                  "help-center/fizen-qr-pay/limits-and-fees",
+                  "help-center/fizen-qr-pay/why-a-payment-fails",
+                  "help-center/fizen-qr-pay/faq"
+                ]
+              },
+              {
+                "group": "Fizen Card",
+                "pages": [
+                  "help-center/fizen-card/fizen-card",
+                  "help-center/fizen-card/apply-for-a-fizen-card",
+                  "help-center/fizen-card/top-up-and-pay",
+                  "help-center/fizen-card/add-card-to-google-pay-apple-pay",
+                  "help-center/fizen-card/manage-card",
+                  "help-center/fizen-card/benefits",
+                  "help-center/fizen-card/fees-and-limitations",
+                  "help-center/fizen-card/unsupported-countries",
+                  "help-center/fizen-card/exceptions-for-unsupported-countries"
+                ]
+              },
+              {
+                "group": "Fizen eSIM",
+                "pages": [
+                  "help-center/fizen-esim/fizen-esim",
+                  "help-center/fizen-esim/welcome-credit",
+                  "help-center/fizen-esim/how-to-buy-an-esim",
+                  "help-center/fizen-esim/card-payments",
+                  "help-center/fizen-esim/manual-installation",
+                  "help-center/fizen-esim/supported-devices",
+                  "help-center/fizen-esim/check-data-balance",
+                  "help-center/fizen-esim/troubleshooting",
+                  "help-center/fizen-esim/trip-guarantee",
+                  "help-center/fizen-esim/faq"
+                ]
+              },
+              {
+                "group": "Tokenized U.S. Stocks",
+                "pages": [
+                  "help-center/fizen-us-stocks/fizen-us-stocks",
+                  "help-center/fizen-us-stocks/project-and-objectives",
+                  "help-center/fizen-us-stocks/how-it-works",
+                  "help-center/fizen-us-stocks/ondo-finance",
+                  "help-center/fizen-us-stocks/create-a-fizen-wallet",
+                  "help-center/fizen-us-stocks/buy-tokenized-us-stocks",
+                  "help-center/fizen-us-stocks/sell-tokenized-us-stocks",
+                  "help-center/fizen-us-stocks/tokenized-vs-traditional-investing",
+                  {
+                    "group": "What You Can Buy",
+                    "pages": [
+                      "help-center/fizen-us-stocks/main-products",
+                      "help-center/fizen-us-stocks/list-of-tokenized-securities",
+                      "help-center/fizen-us-stocks/tokenized-us-stocks-list",
+                      "help-center/fizen-us-stocks/tokenized-us-equity-funds",
+                      "help-center/fizen-us-stocks/tokenized-us-bond-funds",
+                      "help-center/fizen-us-stocks/tokenized-international-equity-funds",
+                      "help-center/fizen-us-stocks/tokenized-commodity-funds"
+                    ]
+                  },
+                  {
+                    "group": "Legal & Compliance",
+                    "pages": [
+                      "help-center/fizen-us-stocks/legal-and-security",
+                      "help-center/fizen-us-stocks/regulation-s",
+                      "help-center/fizen-us-stocks/mifid",
+                      "help-center/fizen-us-stocks/mica"
+                    ]
+                  },
+                  "help-center/fizen-us-stocks/references",
+                  "help-center/fizen-us-stocks/faq"
                 ]
               },
               {
@@ -282,35 +362,6 @@
                     ]
                   }
                 ]
-              },
-              {
-                "group": "Fizen Card",
-                "pages": [
-                  "help-center/fizen-card/fizen-card",
-                  "help-center/fizen-card/apply-for-a-fizen-card",
-                  "help-center/fizen-card/top-up-and-pay",
-                  "help-center/fizen-card/add-card-to-google-pay-apple-pay",
-                  "help-center/fizen-card/manage-card",
-                  "help-center/fizen-card/benefits",
-                  "help-center/fizen-card/fees-and-limitations",
-                  "help-center/fizen-card/unsupported-countries",
-                  "help-center/fizen-card/exceptions-for-unsupported-countries"
-                ]
-              },
-              {
-                "group": "Fizen eSIM",
-                "pages": [
-                  "help-center/fizen-esim/fizen-esim",
-                  "help-center/fizen-esim/welcome-credit",
-                  "help-center/fizen-esim/how-to-buy-an-esim",
-                  "help-center/fizen-esim/card-payments",
-                  "help-center/fizen-esim/manual-installation",
-                  "help-center/fizen-esim/supported-devices",
-                  "help-center/fizen-esim/check-data-balance",
-                  "help-center/fizen-esim/troubleshooting",
-                  "help-center/fizen-esim/trip-guarantee",
-                  "help-center/fizen-esim/faq"
-                ]
               }
             ]
           },
@@ -346,5 +397,11 @@
         ]
       }
     ]
-  }
+  },
+  "redirects": [
+    {
+      "source": "/help-center/fizen-app/faq/how-to-use-qr-pay",
+      "destination": "/help-center/fizen-qr-pay/getting-started"
+    }
+  ]
 }
