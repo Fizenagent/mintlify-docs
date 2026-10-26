@@ -1,0 +1,60 @@
+---
+title: "How It Works"
+description: "How tokenized U.S. securities in the Fizen Super App are backed, priced, traded and held in your own wallet."
+---
+
+Tokenized U.S. securities in Fizen combine an issuer that holds the real assets (Ondo), on-chain trading, and your own self-custody wallet.
+
+## 1. Backed by the underlying asset
+
+Each token is issued by Ondo and backed by the underlying security, which Ondo or one of its affiliates holds with third-party custodians. Ondo creates and redeems tokens against the underlying shares, so that tokens in circulation are backed by the underlying asset.
+
+<Warning>
+  Backing does not remove risk. The token's price may not always track the underlying share exactly, and if Ondo or a custodian fails, the token's value can be impaired or lost. See sections 7.2 to 7.4 of the [Tokenized Securities Terms](/tokenized-rwa).
+</Warning>
+
+## 2. Transparency
+
+Ondo, as the issuer, publishes information on the assets it holds in custody and updates the Net Asset Value (NAV) of each token. Fizen reads this data from Ondo and shows it in the app, so you can see the link between the token and the underlying security before you trade.
+
+## 3. Trade outside U.S. market hours
+
+Traditional stock exchanges have fixed trading hours. Tokenized stocks trade on-chain, so you can place a trade in the Fizen Super App at any time, including evenings, weekends and holidays, using decentralized liquidity.
+
+<Note>
+  Liquidity can be thinner when the U.S. market is closed. Spreads can widen and the price you get may differ from the last share price. Always check the rate, slippage and minimum receive amount before you confirm.
+</Note>
+
+## 4. Directly from your Fizen wallet
+
+- **No brokerage account.** You trade from the Fizen wallet in the app.
+- **No separate KYC for this feature.** Fizen does not run KYC to give you access to tokenized securities. If you completed KYC for another Fizen service, that data is used for sanctions and U.S.-Person screening.
+- **Self-custody.** You sign every trade with your own private key. Tokens, and sale proceeds, settle directly to your own non-custodial Fizen wallet. Fizen never holds your funds or tokens.
+
+## How a trade is executed
+
+<Steps>
+  <Step title="Choose a token">
+    You pick a token from the catalogue, which Fizen reads from Ondo.
+  </Step>
+  <Step title="Review the quote">
+    The app shows the indicative price, the spread, the slippage tolerance, the fees and any risk warnings from Ondo.
+  </Step>
+  <Step title="Sign in your wallet">
+    You confirm by signing the on-chain transaction with your private key. Fizen cannot sign for you.
+  </Step>
+  <Step title="On-chain execution">
+    The signed transaction goes to 1inch Fusion, which matches it against liquidity providers (Resolvers) onboarded by Ondo. Fizen does not control the execution price, timing or slippage.
+  </Step>
+  <Step title="Settlement to your wallet">
+    The token (or, for a sale, the stablecoin) arrives directly in your Fizen wallet.
+  </Step>
+</Steps>
+
+## Fees
+
+The total cost of a trade may include the Resolver's spread or fee, the 1inch Fusion protocol fee, any Ondo fee built into the token, Ethereum network (gas) fees, and a Fizen interface fee if any. Fees are shown before you confirm and are deducted from the trade automatically. See section 5 of the [Tokenized Securities Terms](/tokenized-rwa).
+
+<Warning>
+  Tokenized securities are an investment, not a savings product. You can lose some or all of what you put in. Not available to U.S. Persons. This page is information only and is not financial advice.
+</Warning>
