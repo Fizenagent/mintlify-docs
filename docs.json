@@ -16,7 +16,7 @@
   },
   "favicon": "/favicon.ico",
   "banner": {
-    "content": "<span class=\"fz-gift\">🎁</span> Spend USDT worldwide, new accounts get US$10 of eSIM credit, on us. [Download Fizen Super App →](https://fizen.io/app?accessCode=fizen&utm_source=web&utm_medium=fizen&utm_campaign=app_download&utm_content=docs&aid=6a8573040a0aa1256a7e5935)",
+    "content": "<span>🎁</span> Spend USDT worldwide, new accounts get US$10 of eSIM credit, on us. [Download Fizen Super App →](https://fizen.io/app?accessCode=fizen&utm_source=web&utm_medium=fizen&utm_campaign=app_download&utm_content=docs&aid=6a8573040a0aa1256a7e5935)",
     "dismissible": true
   },
   "seo": {
